@@ -1,0 +1,62 @@
+# rofi basic launcher
+super + shift + e
+    rofi -show emoji
+super + shift + c
+    rofi -show calc
+super + F8
+    wifimenu
+super + F10
+    rofi-bluetooth
+
+# taking screenshots
+super + @Print
+    screenshot select
+super + control + @Print
+    screenshot
+
+# locking screen
+super + shift + l
+    betterlockscreen -l
+
+# brightness  controls
+super + F6
+   changebrightness up
+super + F5
+   changebrightness down
+
+# volume controls
+super + F3
+	changevolume up
+super + F2
+	changevolume down
+super + F1
+	changevolume mute
+
+# microphone controls
+super + shift + F3
+    changemicvol up
+super + shift + F2
+    changemicvol down
+super + F4
+    changemicvol mute
+
+# media control
+super + {greater,less,question}
+    playerctl {next,previous,play-pause}
+super + alt + question
+    playerctl -p spotify play-pause
+
+# changing keyboard layout
+super + bracket{left,right}
+    setxkbmap {us,bg phonetic} -option "terminate:ctrl_alt_bksp" -option "caps:escape"
+
+
+# some sort of application launcher
+super + Return
+    $TERMINAL
+super + w
+    $BROWSER
+super + s
+    spotify
+super + shift + s
+    spotifyd

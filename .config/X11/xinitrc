@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# mute the mic and the speaker
+pamixer --source alsa_input.pci-0000_00_1f.3.analog-stereo -m &
+pamixer -m &
+
+# sets keyboard and mouse options
+setxkbmap us
+setxkbmap -option "terminate:ctrl_alt_bksp"
+setxkbmap -option "caps:escape"
+xmousepasteblock &
+
+# starting the keyboard shortcuts deamon
+sxhkd &
+
+# some guy on the enternet sed to paste it here
+systemctl --user import-environment DISPLAY
+
+# load color scheme and wallpaper
+# wal -i ~/.config/wallpapers/. -q
+wal -R -q
+xrdb -merge ~/.Xresources &
+
+#loading transparent background deamon
+picom &
+
+# load notifycation deamon
+dunst &
+
+# start screensaver deamon
+xscreensaver --no-splash &
+
+# load WM and status bar
+slstatus &
+exec dwm
