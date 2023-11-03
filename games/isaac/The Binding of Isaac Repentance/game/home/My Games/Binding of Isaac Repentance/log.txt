@@ -1,0 +1,81 @@
+[INFO] - timeBeginPeriod( 1 )
+[INFO] - OpenGL version 4.6 (Compatibility Profile) Mesa 23.2.1-arch1.2
+[INFO] - GLSL version 4.60
+[INFO] - Framebuffer ID: 1
+[INFO] - Renderbuffer ID: 1 size 1024x1024
+[INFO] - Initializing theoraplayer with theora support.
+[INFO] - Initializing Theoraplayer Video Playback Library (2.0)
+  - libtheora version: Xiph.Org libtheora 1.2.0alpha 20100924 (Ptalarbvorm)
+  - libvorbis version: Xiph.Org libVorbis 1.3.4
+------------------------------------
+[INFO] - Changing number of worker threads to: 1
+[INFO] - Successfully reserved 1073741824 bytes of memory for Lua
+[INFO] - Running Lua Script: resources/scripts/enums.lua
+[INFO] - Lua mem usage: 743 KB and 126 bytes
+[INFO] - Running Lua Script: resources/scripts/main.lua
+[INFO] - Lua mem usage: 801 KB and 357 bytes
+[INFO] - Binding of Isaac: Repentance v1.7.9b.J835
+[INFO] - load archives: 10094 milliseconds
+[INFO] - Initialize ColorOffset Shader
+[INFO] - Initialize Pixelation Shader
+[INFO] - Initialize Bloom Shader
+[INFO] - Initialize Color Correction Shader
+[INFO] - Initialize HQ4X Shader
+[INFO] - Initialize Shockwave Shader
+[INFO] - Initialize OldTV Shader
+[INFO] - Initialize Water Surface Shader
+[INFO] - Initialize Water Surface V2 Shader
+[INFO] - Initialize Hallucination Shader
+[INFO] - Initialize Colormod Shader
+[INFO] - Initialize Color Offset Champion Shader
+[INFO] - Initialize Background Shader
+[INFO] - Initialize Water Overlay Shader
+[INFO] - Initialize Color Offset Dogma Shader
+[INFO] - Initialize Color Offset Gold Shader
+[INFO] - Initialize Dizzy Shader
+[INFO] - Initialize Heat Wave Shader
+[INFO] - Initialize Mirror Shader
+[INFO] - Setting PersistentGameData ReadOnly to False
+[INFO] - Viewport: 960x540
+[INFO] - Framebuffer Width: 960 
+ Render Width: 960 
+ Window Width: 960 
+ Multiplier: 2.250010 
+ DP per point: 1.000000 
+ Point Scale: 2.000000 
+[INFO] - Viewport: 1920x1080
+[INFO] - Framebuffer Width: 1920 
+ Render Width: 960 
+ Window Width: 1920 
+ Multiplier: 4.500010 
+ DP per point: 1.000000 
+ Point Scale: 2.000000 
+[INFO] - begin list mods
+[INFO] - LOADED MOD c:\game/mods/external item descriptions/content/
+[INFO] - HQX4 size: 960x540
+[INFO] - Running Lua Script: C:\game/mods/external item descriptions/main.lua
+[INFO] - Lua mem usage: 7383 KB and 406 bytes
+[INFO] - Viewport: 1920x1080
+[INFO] - Framebuffer Width: 1920 
+ Render Width: 960 
+ Window Width: 1920 
+ Multiplier: 4.500010 
+ DP per point: 1.000000 
+ Point Scale: 2.000000 
+[INFO] - playing cutscene 1 (Intro).
+[INFO] - Renderbuffer ID: 2 size 2048x2048
+[INFO] - HQX4 size: 1920x1080
+[INFO] - Isaac is shutting down...
+[INFO] - CPU time spent on enemy queries: 0.00 seconds.
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/005.100_collectible.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/buttons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_transform_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_transform_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_transform_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_player_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/005.100_collectible.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_cardspills.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_inline_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_inline_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_transform_icons.anm2
+[INFO] - Isaac has shut down successfully 
