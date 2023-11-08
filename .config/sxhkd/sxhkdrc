@@ -9,10 +9,14 @@ super + F10
     rofi-bluetooth
 
 # taking screenshots
-super + @Print
+super + alt + @Print
     screenshot select
-super + control + @Print
+super + alt + control + @Print
     screenshot
+super + @Print
+    copy_screen select
+super + control + @Print
+    copy_screen window
 
 # locking screen
 super + shift + l
