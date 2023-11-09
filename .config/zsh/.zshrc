@@ -21,6 +21,7 @@ alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias fuckit="poweroff"
+alias cal='cal -m'
 
 # funcions
 fcd() {
