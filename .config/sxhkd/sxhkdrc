@@ -60,6 +60,8 @@ super + Return
     $TERMINAL
 super + w
     $BROWSER
+super + i
+    isaac
 super + s
     spotify
 super + shift + s
