@@ -60,6 +60,8 @@ super + Return
     $TERMINAL
 super + w
     $BROWSER
+super + r
+    lowriter
 super + i
     isaac
 super + s
