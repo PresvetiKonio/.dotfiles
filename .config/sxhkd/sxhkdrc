@@ -68,3 +68,5 @@ super + s
     spotify
 super + shift + s
     spotifyd
+super + shift + a
+    chat-gpt

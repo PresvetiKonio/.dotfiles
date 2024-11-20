@@ -75,5 +75,6 @@ static const struct arg args[] = {
 //	{ run_command,		"[ %4s] ", 		"amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
 	{ cpu_perc, 		"[CPU %s%%] ",		NULL			},
 	{ ram_perc, 		"[RAM %s%%] ", 		NULL	   	   	},
+    { temp,             "[%s°C] ",             "/sys/class/thermal/thermal_zone5/temp"},
 	{ datetime, 		"%s",          		"%a %b %d %I:%M %P" 	},
 };

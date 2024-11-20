@@ -1,83 +1,37 @@
 configuration {
-  display-drun: "Applications:";
-  display-window: "Windows:";
-  drun-display-format: "{name}";
-  font: "JetBrainsMono Nerd Font Medium 10";
-  modi: "window,run,drun,emoji,calc";
+    modi:            "drun";
+    show-icons:      true;
+    icon-theme:      "Paper";
+    sidebar-mode:    false;
+    display-drun:    "";
 }
-
-@theme "/dev/null"
 
 * {
-  bg: #1e1e2e66;
-  bg-alt: #585b7066;
-  bg-selected: #31324466;
+    color-background: rgba(35, 31, 32, 0.85);
+    color-text:       rgba(255, 255, 255, 1);
+    color-highlight:  rgba(0, 157, 220, 1);
 
-  fg: #cdd6f4;
-  fg-alt: #7f849c;
+    background-color: transparent;
+    text-color:       @color-text;
+    spacing:          30;
 
-  
-  border: 0;
-  margin: 0;
-  padding: 0;
-  spacing: 0;
+    font:             "Comic Code 14";
 }
 
-window {
-  width: 30%;
-  background-color: @bg;
+#window {
+    fullscreen:       true;
+    transparency:     "background";
+
+    background-color: @color-background;
+
+    children:         [ dummy1, hdum, dummy2 ];
 }
 
-element {
-  padding: 8 12;
-  background-color: transparent;
-  text-color: @fg-alt;
+#hdum {
+    orientation: horizontal;
+    children:    [ dummy3, mainbox, dummy4 ];
 }
 
-element selected {
-  text-color: @fg;
-  background-color: @bg-selected;
+#element selected {
+    text-color: @color-highlight;
 }
-
-element-text {
-  background-color: transparent;
-  text-color: inherit;
-  vertical-align: 0.5;
-}
-
-element-icon {
-  size: 14;
-  padding: 0 10 0 0;
-  background-color: transparent;
-}
-
-entry {
-  padding: 12;
-  background-color: @bg-alt;
-  text-color: @fg;
-}
-
-inputbar {
-  children: [prompt, entry];
-  background-color: @bg;
-}
-
-listview {
-  background-color: @bg;
-  columns: 1;
-  lines: 10;
-}
-
-mainbox {
-  children: [inputbar, listview];
-  background-color: @bg;
-}
-
-prompt {
-  enabled: true;
-  padding: 12 0 0 12;
-  background-color: @bg-alt;
-  text-color: @fg;
-}
-
-/* vim: ft=sass
