@@ -14,7 +14,7 @@ HISTFILE=~/.cache/zsh/history
 [ -f "${XDG_CONFIG_HOME}/shell/aliases" ] && source "${XDG_CONFIG_HOME}/shell/aliases"
 alias ls="ls --color"
 alias l="ls -la"
-alias s="startx"
+alias s="sway"
 alias lf="lfub"
 alias vim="nvim"
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

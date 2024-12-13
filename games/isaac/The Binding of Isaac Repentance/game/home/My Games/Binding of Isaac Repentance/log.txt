@@ -1,5 +1,5 @@
 [INFO] - timeBeginPeriod( 1 )
-[INFO] - OpenGL version 4.6 (Compatibility Profile) Mesa 24.2.6-arch1.1
+[INFO] - OpenGL version 4.6 (Compatibility Profile) Mesa 24.2.7-arch1.1
 [INFO] - GLSL version 4.60
 [INFO] - Framebuffer ID: 1
 [INFO] - Renderbuffer ID: 1 size 1024x1024
@@ -15,7 +15,7 @@
 [INFO] - Running Lua Script: resources/scripts/main.lua
 [INFO] - Lua mem usage: 801 KB and 357 bytes
 [INFO] - Binding of Isaac: Repentance v1.7.9b.J835
-[INFO] - load archives: 5061 milliseconds
+[INFO] - load archives: 5021 milliseconds
 [INFO] - Initialize ColorOffset Shader
 [INFO] - Initialize Pixelation Shader
 [INFO] - Initialize Bloom Shader
@@ -60,15 +60,15 @@
 [INFO] - Running Lua Script: C:\game/mods/modmenu/main.lua
 [INFO] - Lua Debug: Mod Config Menu v107 - Loading...
 [INFO] - Lua Debug: Mod Config Menu v107 - Loaded.
-[INFO] - Lua mem usage: 1455 KB and 481 bytes
+[INFO] - Lua mem usage: 1455 KB and 705 bytes
 [INFO] - Running Lua Script: C:\game/mods/external item descriptions/main.lua
-[INFO] - Lua mem usage: 8107 KB and 597 bytes
+[INFO] - Lua mem usage: 8107 KB and 821 bytes
 [INFO] - Running Lua Script: C:\game/mods/specialist dance for good items/main.lua
-[INFO] - Lua mem usage: 8634 KB and 819 bytes
+[INFO] - Lua mem usage: 8635 KB and 19 bytes
 [INFO] - Running Lua Script: C:\game/mods/timemachine/main.lua
-[INFO] - Lua mem usage: 8597 KB and 23 bytes
+[INFO] - Lua mem usage: 8597 KB and 247 bytes
 [INFO] - Running Lua Script: C:\game/mods/unintrusive pause menu/main.lua
-[INFO] - Lua mem usage: 8596 KB and 980 bytes
+[INFO] - Lua mem usage: 8597 KB and 180 bytes
 [INFO] - Viewport: 1920x1080
 [INFO] - Framebuffer Width: 1920 
  Render Width: 960 
@@ -131,8 +131,7 @@
 [INFO] - Done Reading Bestiary Counters
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
 [INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - SteamCloud could not find or open rep_gamestate1.dat. No Game State detected.
-[INFO] - Cannot continue a game that doesn't have the same modding state (rep_rerunstate1.dat)!
+[INFO] - GameState Version Loaded: 146
 [INFO] - Setting PersistentGameData ReadOnly to False
 [INFO] - Loading PersistentData 2 from SteamCloud!
 [INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata2.dat.
@@ -262,31 +261,13 @@
 [INFO] - Done Reading Bestiary Counters
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
 [INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - SteamCloud could not find or open rep_gamestate1.dat. No Game State detected.
-[INFO] - Cannot continue a game that doesn't have the same modding state (rep_rerunstate1.dat)!
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: ETTX 0NAX (730612941) [New, 1]
+[INFO] - GameState Version Loaded: 146
+[INFO] - Initialized player with Variant 0 and Subtype 7
 [INFO] - Preload sound 0.
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 2 Seed 3932321193
+[INFO] - RNG Start Seed: 689T DVNF (3897585168) [Continue, 1]
+[INFO] - Setting PersistentGameData ReadOnly to False
+[INFO] - Adding costume for 11 () which was added before and never removed.
 [INFO] - delete 0 generated rooms.
-[INFO] - [RoomConfig] load stage 3: Burning Basement (mode 1)
-[INFO] - allocate 315 rooms.
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 1)
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 1)
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 1)
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 1)
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 1)
-[INFO] - [RoomConfig] load stage 0: Special Rooms (mode 1)
-[INFO] - allocate 180 rooms.
-[INFO] - [ModManager] load stage 0: Special Rooms (mode 1)
-[INFO] - [ModManager] load stage 0: Special Rooms (mode 1)
-[INFO] - [ModManager] load stage 0: Special Rooms (mode 1)
-[INFO] - [ModManager] load stage 0: Special Rooms (mode 1)
-[INFO] - [ModManager] load stage 0: Special Rooms (mode 1)
-[INFO] - place_room: shape 4
-[INFO] - place_room: shape 6
 [INFO] - [RoomConfig] load stage 0: Special Rooms (mode 0)
 [INFO] - allocate 1300 rooms.
 [INFO] - [ModManager] load stage 0: Special Rooms (mode 0)
@@ -294,1953 +275,6 @@
 [INFO] - [ModManager] load stage 0: Special Rooms (mode 0)
 [INFO] - [ModManager] load stage 0: Special Rooms (mode 0)
 [INFO] - [ModManager] load stage 0: Special Rooms (mode 0)
-[INFO] - CURRENT ROOM INDEX 84 54b08390
-[INFO] - Room 1.1012(Basement (copy))
-[INFO] - SpawnRNG seed: 4285212645
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(200.00,160.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(560.00,360.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(80.00,480.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(440.00,680.00)
-[INFO] - Lua mem usage: 8596 KB and 944 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - music stopped playing
-[INFO] - Queued Path music/Afterbirth/Burning Basement GUitar Layer_04.ogg
-[INFO] - Queued Path music/Afterbirth/burning basement Loop.ogg
-[INFO] - Action PillCard Triggered
-[INFO] - Total entity spawn time: 44 ms
-[INFO] - Total ANM2 loading time: 215 ms
-[INFO] - AnmCache memory usage: 1905708 bytes in 105 entries.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.01 seconds.
-[INFO] - Menu Manager preCrossfade
-[INFO] - Menu Manager Init
-[INFO] - Menu Title Init
-[INFO] - Menu Save Init
-[INFO] - Menu_Save Pre Prompt init
-[INFO] - Menu_Save loading slot drawings
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 1 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Reading chunk 1
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading chunk 2
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading chunk 3
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading chunk 4
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading chunk 5
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading chunk 6
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading chunk 7
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading chunk 8
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading chunk 9
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading chunk 10
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading chunk 11
-[INFO] - Reading Bestiary Counters
-[INFO] - Done Reading Bestiary Counters
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - GameState Version Loaded: 146
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 2 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata2.dat.
-[INFO] - Reading chunk 1
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading chunk 2
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading chunk 3
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading chunk 4
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading chunk 5
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading chunk 6
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading chunk 7
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading chunk 8
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading chunk 9
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading chunk 10
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading chunk 11
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata2.dat.
-[INFO] - Loading GameState 2 from SteamCloud!
-[INFO] - SteamCloud could not find or open rep_gamestate2.dat. No Game State detected.
-[INFO] - Cannot continue a game that doesn't have the same modding state (rep_rerunstate2.dat)!
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 3 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata3.dat.
-[INFO] - Reading chunk 1
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading chunk 2
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading chunk 3
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading chunk 4
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading chunk 5
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading chunk 6
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading chunk 7
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading chunk 8
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading chunk 9
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading chunk 10
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading chunk 11
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata3.dat.
-[INFO] - Loading GameState 3 from SteamCloud!
-[INFO] - SteamCloud could not find or open rep_gamestate3.dat. No Game State detected.
-[INFO] - Cannot continue a game that doesn't have the same modding state (rep_rerunstate3.dat)!
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 1 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Reading chunk 1
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading chunk 2
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading chunk 3
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading chunk 4
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading chunk 5
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading chunk 6
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading chunk 7
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading chunk 8
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading chunk 9
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading chunk 10
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading chunk 11
-[INFO] - Reading Bestiary Counters
-[INFO] - Done Reading Bestiary Counters
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - GameState Version Loaded: 146
-[INFO] - Menu Game Init
-[INFO] - Menu Daily Init
-[INFO] - Menu Character Init
-[INFO] - Menu SpecialSeed Init
-[INFO] - Menu Challenge Init
-[INFO] - Menu Collection Init
-[INFO] - Menu Stats Init
-[INFO] - Menu Mods Init
-[INFO] - Menu Options Init
-[INFO] - Menu Controller Init
-[INFO] - Menu Key Config Init
-[INFO] - Menu Cutscene Init
-[INFO] - Menu Bestiary Init
-[INFO] - Menu Custom Challenge Init
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: D22F TETW (299837295) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 2 Seed 62413719
-[INFO] - Curse of Blind
-[INFO] - delete 0 generated rooms.
-[INFO] - [RoomConfig] load stage 3: Burning Basement (mode 0)
-[INFO] - allocate 1311 rooms.
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 0)
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 0)
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 0)
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 0)
-[INFO] - [ModManager] load stage 3: Burning Basement (mode 0)
-[INFO] - generate...
-[INFO] - place_room: shape 3
-[INFO] - place_room: shape 8
-[INFO] - 11 rooms in 8 loops
-[INFO] - placing rooms...
-[INFO] - [RoomConfig] load stage 13: ??? (mode 0)
-[INFO] - allocate 30 rooms.
-[INFO] - [ModManager] load stage 13: ??? (mode 0)
-[INFO] - [ModManager] load stage 13: ??? (mode 0)
-[INFO] - [ModManager] load stage 13: ??? (mode 0)
-[INFO] - [ModManager] load stage 13: ??? (mode 0)
-[INFO] - [ModManager] load stage 13: ??? (mode 0)
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 1065446854
-[INFO] - Lua mem usage: 8870 KB and 686 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - music stopped playing
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.02 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: K4NN LK8W (1098365658) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 1 Seed 2791466030
-[INFO] - delete 0 generated rooms.
-[INFO] - [RoomConfig] load stage 2: Cellar (mode 0)
-[INFO] - allocate 1148 rooms.
-[INFO] - [ModManager] load stage 2: Cellar (mode 0)
-[INFO] - [ModManager] load stage 2: Cellar (mode 0)
-[INFO] - [ModManager] load stage 2: Cellar (mode 0)
-[INFO] - [ModManager] load stage 2: Cellar (mode 0)
-[INFO] - [ModManager] load stage 2: Cellar (mode 0)
-[INFO] - generate...
-[INFO] - place_room: shape 8
-[INFO] - 12 rooms in 8 loops
-[INFO] - not enough dead ends, trying to make new one
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 569366514
-[INFO] - Lua mem usage: 8878 KB and 206 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.02 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: PFS0 HXXW (1720589363) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 2 Seed 2932089927
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 7
-[INFO] - place_room: shape 6
-[INFO] - place_room: shape 11
-[INFO] - 10 rooms in 7 loops
-[INFO] - not enough dead ends, trying to make new one
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2343099985
-[INFO] - Lua mem usage: 8873 KB and 486 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.02 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: G00Q KVM4 (977509136) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 0 Seed 3146421539
-[INFO] - delete 0 generated rooms.
-[INFO] - [RoomConfig] load stage 1: Basement (mode 0)
-[INFO] - allocate 1181 rooms.
-[INFO] - [ModManager] load stage 1: Basement (mode 0)
-[INFO] - [ModManager] load stage 1: Basement (mode 0)
-[INFO] - [ModManager] load stage 1: Basement (mode 0)
-[INFO] - [ModManager] load stage 1: Basement (mode 0)
-[INFO] - [ModManager] load stage 1: Basement (mode 0)
-[INFO] - generate...
-[INFO] - place_room: shape 7
-[INFO] - 11 rooms in 7 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2318984267
-[INFO] - Lua mem usage: 8873 KB and 558 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.02 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: EME3 GA2Y (757525758) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 0 Seed 251819791
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 7
-[INFO] - place_room: shape 4
-[INFO] - place_room: shape 4
-[INFO] - place_room: shape 12
-[INFO] - 11 rooms in 7 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2627932168
-[INFO] - Lua mem usage: 8873 KB and 486 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.02 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: 4RJ9 HMTE (3695086675) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 0 Seed 350123647
-[INFO] - Curse of the Unknown
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 3
-[INFO] - place_room: shape 6
-[INFO] - place_room: shape 4
-[INFO] - place_room: shape 7
-[INFO] - place_room: shape 2
-[INFO] - 10 rooms in 7 loops
-[INFO] - not enough dead ends, trying to make new one
-[INFO] - not enough dead ends, trying to make new one
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2964119451
-[INFO] - Lua mem usage: 8873 KB and 558 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.02 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: 0A0P 26ES (3217269645) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 1 Seed 3397168456
-[INFO] - Curse of the Unknown
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 7
-[INFO] - place_room: shape 4
-[INFO] - 11 rooms in 6 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 3395450559
-[INFO] - Lua mem usage: 8883 KB and 14 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.02 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: HHJR 6RPX (910131648) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 1 Seed 65503148
-[INFO] - Curse of Darkness!
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 5
-[INFO] - place_room: shape 8
-[INFO] - place_room: shape 3
-[INFO] - place_room: shape 12
-[INFO] - place_room: shape 4
-[INFO] - 11 rooms in 7 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 1395924532
-[INFO] - Lua mem usage: 8880 KB and 350 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 4.24()
-[INFO] - SpawnRNG seed: 1988493648
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8884 KB and 386 bytes
-[INFO] - Adding costume for 132 () which was added before and never removed.
-[INFO] - music stopped playing
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 108 (The Wafer) to player 0 (Isaac)
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 1395924532
-[INFO] - Lua mem usage: 8881 KB and 800 bytes
-[INFO] - Room 1.268(New Room)
-[INFO] - SpawnRNG seed: 2199890828
-[INFO] - Spawn Entity with Type(30), Variant(2), Pos(120.00,160.00)
-[INFO] - Spawn Entity with Type(30), Variant(2), Pos(80.00,200.00)
-[INFO] - Spawn Entity with Type(206), Variant(0), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(30), Variant(2), Pos(80.00,360.00)
-[INFO] - Spawn Entity with Type(206), Variant(0), Pos(120.00,360.00)
-[INFO] - Spawn Entity with Type(30), Variant(2), Pos(120.00,400.00)
-[INFO] - Lua mem usage: 8881 KB and 608 bytes
-[INFO] - music stopped playing
-[INFO] - Queued Path music/The Cellar Layer.ogg
-[INFO] - Queued Path music/The Cellar Alt.ogg
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.07 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: LR8A 30J1 (1544778532) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 0 Seed 2808299215
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - 10 rooms in 6 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 1197377006
-[INFO] - Lua mem usage: 8875 KB and 548 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.07 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: GMV3 XMR0 (1025042000) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 2 Seed 2211218868
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 4
-[INFO] - place_room: shape 9
-[INFO] - place_room: shape 6
-[INFO] - place_room: shape 12
-[INFO] - 12 rooms in 8 loops
-[INFO] - not enough dead ends, trying to make new one
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 3759182117
-[INFO] - Lua mem usage: 8896 KB and 724 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Queued Path music/Afterbirth/Burning Basement GUitar Layer_04.ogg
-[INFO] - Queued Path music/Afterbirth/burning basement Loop.ogg
-[INFO] - Room 4.9()
-[INFO] - SpawnRNG seed: 1983786709
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8879 KB and 216 bytes
-[INFO] - music stopped playing
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.08 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: J9SY 92X3 (1208889375) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 1 Seed 955123936
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - 11 rooms in 8 loops
-[INFO] - not enough dead ends, trying to make new one
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 350214611
-[INFO] - Lua mem usage: 8879 KB and 648 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.08 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: 204D Q1E2 (3394980001) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 1 Seed 3408012770
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 8
-[INFO] - place_room: shape 4
-[INFO] - place_room: shape 5
-[INFO] - 10 rooms in 6 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4177738184
-[INFO] - Lua mem usage: 8883 KB and 438 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.08 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: 8XBZ FZ8V (4213976362) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 0 Seed 1429249519
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 7
-[INFO] - 10 rooms in 6 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4047966230
-[INFO] - Lua mem usage: 8883 KB and 438 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 4.17()
-[INFO] - SpawnRNG seed: 1927618568
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8880 KB and 150 bytes
-[INFO] - music stopped playing
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 581 (Psy Fly) to player 0 (Isaac)
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4047966230
-[INFO] - Lua mem usage: 8890 KB and 809 bytes
-[INFO] - Room 1.929(New Room (copy))
-[INFO] - SpawnRNG seed: 1202246063
-[INFO] - Spawn Entity with Type(302), Variant(0), Pos(240.00,360.00)
-[INFO] - Spawn Entity with Type(302), Variant(0), Pos(320.00,360.00)
-[INFO] - Spawn Entity with Type(302), Variant(0), Pos(400.00,360.00)
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(120.00,400.00)
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(200.00,400.00)
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(440.00,400.00)
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(520.00,400.00)
-[INFO] - Lua mem usage: 8875 KB and 225 bytes
-[INFO] - music stopped playing
-[INFO] - Queued Path music/Diptera Layer.ogg
-[INFO] - Queued Path music/Diptera Sonata(Basement).ogg
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.639(New Room (copy))
-[INFO] - SpawnRNG seed: 1533745648
-[INFO] - Spawn Entity with Type(276), Variant(0), Pos(360.00,240.00)
-[INFO] - Spawn Entity with Type(276), Variant(0), Pos(280.00,320.00)
-[INFO] - Lua mem usage: 8884 KB and 913 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1075(New Room)
-[INFO] - SpawnRNG seed: 4067537078
-[INFO] - Spawn Entity with Type(14), Variant(0), Pos(240.00,200.00)
-[INFO] - Spawn Entity with Type(14), Variant(0), Pos(400.00,200.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(280.00,240.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(320.00,240.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(360.00,240.00)
-[INFO] - Lua mem usage: 8896 KB and 185 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.343(New Room)
-[INFO] - SpawnRNG seed: 2739529786
-[INFO] - Spawn Entity with Type(218), Variant(0), Pos(400.00,240.00)
-[INFO] - Spawn Entity with Type(218), Variant(0), Pos(240.00,320.00)
-[INFO] - Lua mem usage: 8878 KB and 593 bytes
-[INFO] - Room 1.1137(New Room)
-[INFO] - SpawnRNG seed: 251440418
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(280.00,360.00)
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(320.00,360.00)
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(360.00,360.00)
-[INFO] - Spawn Entity with Type(77), Variant(0), Pos(200.00,400.00)
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(280.00,400.00)
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(360.00,400.00)
-[INFO] - Spawn Entity with Type(77), Variant(0), Pos(440.00,400.00)
-[INFO] - Lua mem usage: 8878 KB and 665 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 8.14()
-[INFO] - SpawnRNG seed: 3530222161
-[INFO] - Spawn Entity with Type(6), Variant(4), Pos(240.00,280.00)
-[INFO] - Spawn Entity with Type(6), Variant(2), Pos(400.00,280.00)
-[INFO] - Lua mem usage: 8876 KB and 77 bytes
-[INFO] - music stopped playing
-[INFO] - Action PillCard Triggered
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1137(New Room)
-[INFO] - SpawnRNG seed: 251440418
-[INFO] - Lua mem usage: 8888 KB and 969 bytes
-[INFO] - Room 5.5144(Gurglings (copy))
-[INFO] - SpawnRNG seed: 2492538427
-[INFO] - Spawn Entity with Type(237), Variant(1), Pos(200.00,240.00)
-[INFO] - Spawn Entity with Type(237), Variant(1), Pos(440.00,240.00)
-[INFO] - Lua mem usage: 8893 KB and 110 bytes
-[INFO] - Queued Path music/Afterbirth/Cerebrum Dispersio (boss alt) Loop.ogg
-[INFO] - TriggerBossDeath: 1 bosses remaining.
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - deathspawn_boss, color idx 1
-[INFO] - Boss 56 added to SaveState
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 240 (Experimental Treatment) to player 0 (Isaac)
-[INFO] - music stopped playing
-[INFO] - Queued Path music/The Calm.ogg
-[INFO] - Level::Init m_Stage 2, m_StageType 0 Seed 1989578345
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 4
-[INFO] - 13 rooms in 7 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 3751411861
-[INFO] - Lua mem usage: 8877 KB and 661 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.259(New Room)
-[INFO] - SpawnRNG seed: 3643028309
-[INFO] - Spawn Entity with Type(205), Variant(0), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8893 KB and 545 bytes
-[INFO] - Queued Path music/Diptera Layer.ogg
-[INFO] - Queued Path music/Diptera Sonata(Basement).ogg
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.167()
-[INFO] - SpawnRNG seed: 1004629767
-[INFO] - Spawn Entity with Type(15), Variant(1), Pos(280.00,240.00)
-[INFO] - Spawn Entity with Type(15), Variant(1), Pos(360.00,320.00)
-[INFO] - Lua mem usage: 8895 KB and 529 bytes
-[INFO] - Room 4.12()
-[INFO] - SpawnRNG seed: 141724070
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8882 KB and 585 bytes
-[INFO] - item taken without exchange
-[INFO] - music stopped playing
-[INFO] - item queue flush
-[INFO] - Adding collectible 305 (Scorpio) to player 0 (Isaac)
-[INFO] - Room 1.167()
-[INFO] - SpawnRNG seed: 1004629767
-[INFO] - Lua mem usage: 8889 KB and 276 bytes
-[INFO] - Room 1.343(New Room)
-[INFO] - SpawnRNG seed: 1533122567
-[INFO] - Spawn Entity with Type(218), Variant(0), Pos(400.00,240.00)
-[INFO] - Spawn Entity with Type(218), Variant(0), Pos(240.00,320.00)
-[INFO] - Lua mem usage: 8885 KB and 308 bytes
-[INFO] - Room 1.638(New Room (copy))
-[INFO] - SpawnRNG seed: 2191876349
-[INFO] - Spawn Entity with Type(284), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(10), Variant(1), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(284), Variant(0), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8894 KB and 340 bytes
-[INFO] - Room 1.1019(New Room)
-[INFO] - SpawnRNG seed: 2368064115
-[INFO] - Spawn Entity with Type(61), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(249), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(61), Variant(0), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8890 KB and 196 bytes
-[INFO] - Room 1.134()
-[INFO] - SpawnRNG seed: 2065425691
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(160.00,240.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(480.00,320.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(520.00,360.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(560.00,400.00)
-[INFO] - Lua mem usage: 8878 KB and 268 bytes
-[INFO] - Room 5.5022(Dingle (copy))
-[INFO] - SpawnRNG seed: 2462505063
-[INFO] - Spawn Entity with Type(261), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(13), Variant(0), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8887 KB and 804 bytes
-[INFO] - Queued Path music/Afterbirth/Cerebrum Dispersio (boss alt) Loop.ogg
-[INFO] - Total entity spawn time: 2117 ms
-[INFO] - Total ANM2 loading time: 503 ms
-[INFO] - AnmCache memory usage: 2936848 bytes in 178 entries.
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - deathspawn_boss, color idx -1
-[INFO] - Boss 44 added to SaveState
-[INFO] - music stopped playing
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 355 (Mom's Pearls) to player 0 (Isaac)
-[INFO] - Queued Path music/The Calm.ogg
-[INFO] - Level::Init m_Stage 3, m_StageType 0 Seed 2856607729
-[INFO] - delete 0 generated rooms.
-[INFO] - [RoomConfig] load stage 4: Caves (mode 0)
-[INFO] - allocate 1111 rooms.
-[INFO] - [ModManager] load stage 4: Caves (mode 0)
-[INFO] - [ModManager] load stage 4: Caves (mode 0)
-[INFO] - [ModManager] load stage 4: Caves (mode 0)
-[INFO] - [ModManager] load stage 4: Caves (mode 0)
-[INFO] - [ModManager] load stage 4: Caves (mode 0)
-[INFO] - generate...
-[INFO] - place_room: shape 6
-[INFO] - place_room: shape 8
-[INFO] - place_room: shape 10
-[INFO] - place_room: shape 5
-[INFO] - 18 rooms in 12 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 1488784188
-[INFO] - Lua mem usage: 8879 KB and 915 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Queued Path music/The Caves Layer.ogg
-[INFO] - Queued Path music/The Caves.ogg
-[INFO] - Total entity spawn time: 2231 ms
-[INFO] - Total ANM2 loading time: 558 ms
-[INFO] - AnmCache memory usage: 3120084 bytes in 182 entries.
-[INFO] - Viewport: 1920x1080
-[INFO] - Framebuffer Width: 1920 
- Render Width: 960 
- Window Width: 960 
- Multiplier: 2.250010 
- DP per point: 2.000000 
- Point Scale: 1.000000 
-[INFO] - HQX4 size: 960x540
-[INFO] - Room 1.47()
-[INFO] - SpawnRNG seed: 1835722281
-[INFO] - Spawn Entity with Type(77), Variant(0), Pos(280.00,240.00)
-[INFO] - Spawn Entity with Type(77), Variant(0), Pos(360.00,240.00)
-[INFO] - Spawn Entity with Type(6), Variant(2), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(77), Variant(0), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(77), Variant(0), Pos(360.00,320.00)
-[INFO] - Lua mem usage: 8886 KB and 991 bytes
-[INFO] - Room 1.978(New Room)
-[INFO] - SpawnRNG seed: 3011276107
-[INFO] - Spawn Entity with Type(31), Variant(0), Pos(320.00,240.00)
-[INFO] - Spawn Entity with Type(31), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(31), Variant(0), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(31), Variant(0), Pos(320.00,320.00)
-[INFO] - Lua mem usage: 8879 KB and 487 bytes
-[INFO] - Room 1.47()
-[INFO] - SpawnRNG seed: 1835722281
-[INFO] - Lua mem usage: 8891 KB and 367 bytes
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 1488784188
-[INFO] - Lua mem usage: 8887 KB and 687 bytes
-[INFO] - Room 1.712((t) (copy))
-[INFO] - SpawnRNG seed: 1591707641
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(120.00,320.00)
-[INFO] - Lua mem usage: 8882 KB and 591 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 1488784188
-[INFO] - Lua mem usage: 8884 KB and 471 bytes
-[INFO] - Room 1.439(New Room)
-[INFO] - SpawnRNG seed: 2717742725
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(560.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(600.00,320.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(480.00,360.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(680.00,360.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(480.00,480.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(680.00,480.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(600.00,520.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(560.00,560.00)
-[INFO] - Lua mem usage: 8884 KB and 471 bytes
-[INFO] - Room 1.957(New Room)
-[INFO] - SpawnRNG seed: 1409997577
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(320.00,240.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(320.00,320.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(80.00,400.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(560.00,400.00)
-[INFO] - Lua mem usage: 8881 KB and 35 bytes
-[INFO] - Room 1.91()
-[INFO] - SpawnRNG seed: 1691034672
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(160.00,240.00)
-[INFO] - Spawn Entity with Type(27), Variant(1), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(27), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(27), Variant(0), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(480.00,320.00)
-[INFO] - Lua mem usage: 8889 KB and 871 bytes
-[INFO] - Room 1.957(New Room)
-[INFO] - SpawnRNG seed: 1409997577
-[INFO] - Lua mem usage: 8894 KB and 247 bytes
-[INFO] - Room 1.439(New Room)
-[INFO] - SpawnRNG seed: 2717742725
-[INFO] - Lua mem usage: 8896 KB and 767 bytes
-[INFO] - Room 1.936(New Room)
-[INFO] - SpawnRNG seed: 3250063207
-[INFO] - Spawn Entity with Type(868), Variant(0), Pos(120.00,160.00)
-[INFO] - Spawn Entity with Type(868), Variant(0), Pos(80.00,200.00)
-[INFO] - Spawn Entity with Type(868), Variant(0), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(89), Variant(0), Pos(240.00,280.00)
-[INFO] - Spawn Entity with Type(89), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(89), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(89), Variant(0), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(89), Variant(0), Pos(400.00,280.00)
-[INFO] - Spawn Entity with Type(868), Variant(0), Pos(520.00,360.00)
-[INFO] - Spawn Entity with Type(868), Variant(0), Pos(560.00,360.00)
-[INFO] - Spawn Entity with Type(868), Variant(0), Pos(520.00,400.00)
-[INFO] - Lua mem usage: 8887 KB and 991 bytes
-[INFO] - Room 1.439(New Room)
-[INFO] - SpawnRNG seed: 2717742725
-[INFO] - Lua mem usage: 8892 KB and 367 bytes
-[INFO] - Room 1.15()
-[INFO] - SpawnRNG seed: 2124117961
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(160.00,240.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(480.00,320.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(560.00,400.00)
-[INFO] - Lua mem usage: 8889 KB and 871 bytes
-[INFO] - Room 1.280(New Room)
-[INFO] - SpawnRNG seed: 4178754276
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(280.00,200.00)
-[INFO] - Spawn Entity with Type(300), Variant(0), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(360.00,200.00)
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(280.00,240.00)
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(360.00,240.00)
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8883 KB and 591 bytes
-[INFO] - Room 1.757(LTR easy)
-[INFO] - SpawnRNG seed: 3126095378
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(320.00,360.00)
-[INFO] - Spawn Entity with Type(5), Variant(0), Pos(160.00,400.00)
-[INFO] - Spawn Entity with Type(5), Variant(0), Pos(240.00,400.00)
-[INFO] - Spawn Entity with Type(5), Variant(0), Pos(320.00,400.00)
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(360.00,400.00)
-[INFO] - Spawn Entity with Type(5), Variant(0), Pos(120.00,440.00)
-[INFO] - Spawn Entity with Type(5), Variant(0), Pos(200.00,440.00)
-[INFO] - Spawn Entity with Type(5), Variant(0), Pos(280.00,440.00)
-[INFO] - Spawn Entity with Type(26), Variant(1), Pos(360.00,440.00)
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(320.00,480.00)
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(800.00,560.00)
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(880.00,560.00)
-[INFO] - Lua mem usage: 8899 KB and 143 bytes
-[INFO] - Room 1.982(New Room)
-[INFO] - SpawnRNG seed: 3026483767
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(320.00,240.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(320.00,320.00)
-[INFO] - Lua mem usage: 8880 KB and 986 bytes
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Game Over. Killed by (23.0) spawned by (0.0) damage flags (0)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.91 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: Y9TP SRJ6 (2819467200) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 1 Seed 2209190156
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 5
-[INFO] - 11 rooms in 7 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2895172721
-[INFO] - Lua mem usage: 8881 KB and 34 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 4.27()
-[INFO] - SpawnRNG seed: 3399484114
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,400.00)
-[INFO] - Lua mem usage: 8898 KB and 426 bytes
-[INFO] - music stopped playing
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.91 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: PPES HVW1 (1688632339) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 2 Seed 1747248525
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 4
-[INFO] - place_room: shape 8
-[INFO] - place_room: shape 2
-[INFO] - place_room: shape 8
-[INFO] - place_room: shape 2
-[INFO] - 12 rooms in 6 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2703325967
-[INFO] - Lua mem usage: 8885 KB and 228 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.92 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: RQET WGJZ (1952868068) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 0 Seed 3476553517
-[INFO] - Curse of Blind
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - 10 rooms in 5 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2325930386
-[INFO] - Lua mem usage: 8888 KB and 532 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.92 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: T9VE KLN4 (2149137236) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 1 Seed 1710841796
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 9
-[INFO] - place_room: shape 10
-[INFO] - 11 rooms in 6 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 840948168
-[INFO] - Lua mem usage: 8890 KB and 540 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.92 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: 8F8Q 4QJA (4271084228) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 0 Seed 3551124667
-[INFO] - Curse of Darkness!
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 5
-[INFO] - 10 rooms in 6 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 1074328077
-[INFO] - Lua mem usage: 8890 KB and 540 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.92 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: BW8N J3GY (55819161) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 0 Seed 3716085029
-[INFO] - Curse of the Lost!
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 7
-[INFO] - place_room: shape 12
-[INFO] - 14 rooms in 8 loops
-[INFO] - placing rooms...
-[INFO] - generate...
-[INFO] - place_room: shape 11
-[INFO] - place_room: shape 7
-[INFO] - place_room: shape 11
-[INFO] - 14 rooms in 9 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 2 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 3669423651
-[INFO] - Lua mem usage: 8890 KB and 540 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.92 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: MCAM X0CP (1466943013) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 2 Seed 3156375927
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - 11 rooms in 5 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2533704518
-[INFO] - Lua mem usage: 8890 KB and 540 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.92 seconds.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: KVN3 Z1VE (1094116642) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 0
-[INFO] - Level::Init m_Stage 1, m_StageType 1 Seed 3872538248
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 12
-[INFO] - place_room: shape 6
-[INFO] - place_room: shape 4
-[INFO] - place_room: shape 9
-[INFO] - 11 rooms in 7 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 3727338920
-[INFO] - Lua mem usage: 8890 KB and 540 bytes
-[INFO] - Adding collectible 105 (The D6) to player 0 (Isaac)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Action PillCard Triggered
-[INFO] - Total entity spawn time: 3652 ms
-[INFO] - Total ANM2 loading time: 714 ms
-[INFO] - AnmCache memory usage: 3343144 bytes in 202 entries.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.92 seconds.
-[INFO] - Menu Manager preCrossfade
-[INFO] - Menu Manager Init
-[INFO] - Menu Title Init
-[INFO] - Menu Save Init
-[INFO] - Menu_Save Pre Prompt init
-[INFO] - Menu_Save loading slot drawings
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 1 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Reading chunk 1
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading chunk 2
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading chunk 3
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading chunk 4
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading chunk 5
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading chunk 6
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading chunk 7
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading chunk 8
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading chunk 9
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading chunk 10
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading chunk 11
-[INFO] - Reading Bestiary Counters
-[INFO] - Done Reading Bestiary Counters
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - GameState Version Loaded: 146
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 2 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata2.dat.
-[INFO] - Reading chunk 1
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading chunk 2
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading chunk 3
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading chunk 4
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading chunk 5
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading chunk 6
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading chunk 7
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading chunk 8
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading chunk 9
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading chunk 10
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading chunk 11
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata2.dat.
-[INFO] - Loading GameState 2 from SteamCloud!
-[INFO] - SteamCloud could not find or open rep_gamestate2.dat. No Game State detected.
-[INFO] - Cannot continue a game that doesn't have the same modding state (rep_rerunstate2.dat)!
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 3 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata3.dat.
-[INFO] - Reading chunk 1
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading chunk 2
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading chunk 3
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading chunk 4
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading chunk 5
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading chunk 6
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading chunk 7
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading chunk 8
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading chunk 9
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading chunk 10
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading chunk 11
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata3.dat.
-[INFO] - Loading GameState 3 from SteamCloud!
-[INFO] - SteamCloud could not find or open rep_gamestate3.dat. No Game State detected.
-[INFO] - Cannot continue a game that doesn't have the same modding state (rep_rerunstate3.dat)!
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 1 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Reading chunk 1
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading chunk 2
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading chunk 3
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading chunk 4
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading chunk 5
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading chunk 6
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading chunk 7
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading chunk 8
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading chunk 9
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading chunk 10
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading chunk 11
-[INFO] - Reading Bestiary Counters
-[INFO] - Done Reading Bestiary Counters
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - GameState Version Loaded: 146
-[INFO] - Menu Game Init
-[INFO] - Menu Daily Init
-[INFO] - Menu Character Init
-[INFO] - Menu SpecialSeed Init
-[INFO] - Menu Challenge Init
-[INFO] - Menu Collection Init
-[INFO] - Menu Stats Init
-[INFO] - Menu Mods Init
-[INFO] - Menu Options Init
-[INFO] - Menu Controller Init
-[INFO] - Menu Key Config Init
-[INFO] - Menu Cutscene Init
-[INFO] - Menu Bestiary Init
-[INFO] - Menu Custom Challenge Init
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: 689T DVNF (3897585168) [New, 1]
-[INFO] - Initialized player with Variant 0 and Subtype 7
-[INFO] - Level::Init m_Stage 1, m_StageType 2 Seed 3427872705
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - 11 rooms in 7 loops
-[INFO] - placing rooms...
-[INFO] - generate...
-[INFO] - place_room: shape 2
-[INFO] - 11 rooms in 7 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 2 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2062103392
-[INFO] - Lua mem usage: 8880 KB and 772 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 4.26()
-[INFO] - SpawnRNG seed: 2971129728
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8881 KB and 820 bytes
-[INFO] - music stopped playing
-[INFO] - Queued Path music/Afterbirth/Burning Basement GUitar Layer_04.ogg
-[INFO] - Queued Path music/Afterbirth/burning basement Loop.ogg
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 10 (Halo of Flies) to player 0 (Azazel)
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2062103392
-[INFO] - Lua mem usage: 8886 KB and 178 bytes
-[INFO] - Room 1.1138(New Room)
-[INFO] - SpawnRNG seed: 2763966972
-[INFO] - Spawn Entity with Type(15), Variant(3), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(15), Variant(3), Pos(360.00,320.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(200.00,360.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(440.00,360.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(320.00,400.00)
-[INFO] - Lua mem usage: 8882 KB and 122 bytes
-[INFO] - Room 1.616(New Room)
-[INFO] - SpawnRNG seed: 237824446
-[INFO] - Spawn Entity with Type(276), Variant(0), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8885 KB and 346 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.860(New Room)
-[INFO] - SpawnRNG seed: 382582964
-[INFO] - Spawn Entity with Type(11), Variant(1), Pos(200.00,200.00)
-[INFO] - Spawn Entity with Type(11), Variant(1), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(11), Variant(1), Pos(440.00,200.00)
-[INFO] - Spawn Entity with Type(11), Variant(1), Pos(240.00,240.00)
-[INFO] - Spawn Entity with Type(11), Variant(1), Pos(400.00,240.00)
-[INFO] - Spawn Entity with Type(11), Variant(1), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(120.00,360.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(520.00,360.00)
-[INFO] - Lua mem usage: 8882 KB and 954 bytes
-[INFO] - Room 1.235(New Room)
-[INFO] - SpawnRNG seed: 1269099896
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(200.00,160.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(240.00,160.00)
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(12), Variant(0), Pos(160.00,200.00)
-[INFO] - Spawn Entity with Type(12), Variant(0), Pos(480.00,360.00)
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(80.00,400.00)
-[INFO] - Lua mem usage: 8891 KB and 922 bytes
-[INFO] - Room 1.1279(New Room)
-[INFO] - SpawnRNG seed: 2878292169
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(120.00,240.00)
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(160.00,240.00)
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(120.00,280.00)
-[INFO] - Spawn Entity with Type(12), Variant(0), Pos(520.00,280.00)
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(120.00,320.00)
-[INFO] - Spawn Entity with Type(222), Variant(0), Pos(160.00,320.00)
-[INFO] - Lua mem usage: 8900 KB and 634 bytes
-[INFO] - Action PillCard Triggered
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.246(New Room)
-[INFO] - SpawnRNG seed: 283806213
-[INFO] - Spawn Entity with Type(214), Variant(0), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(16), Variant(0), Pos(520.00,200.00)
-[INFO] - Spawn Entity with Type(16), Variant(0), Pos(120.00,360.00)
-[INFO] - Spawn Entity with Type(214), Variant(0), Pos(80.00,400.00)
-[INFO] - Lua mem usage: 8889 KB and 986 bytes
-[INFO] - Room 5.1016(Monstro (copy))
-[INFO] - SpawnRNG seed: 4002638920
-[INFO] - Spawn Entity with Type(16), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(20), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(16), Variant(0), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8887 KB and 826 bytes
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - deathspawn_boss, color idx -1
-[INFO] - Boss 1 added to SaveState
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 70 (Growth Hormones) to player 0 (Azazel)
-[INFO] - Level::Init m_Stage 2, m_StageType 0 Seed 3378186845
-[INFO] - Curse of Blind
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 8
-[INFO] - 14 rooms in 9 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2917272262
-[INFO] - Lua mem usage: 8883 KB and 416 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 10.7( (copy))
-[INFO] - SpawnRNG seed: 2121133368
-[INFO] - Spawn Entity with Type(5), Variant(360), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8899 KB and 236 bytes
-[INFO] - Room 14.0(Devil (Shop))
-[INFO] - SpawnRNG seed: 755086253
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(200.00,200.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(440.00,200.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(360.00,320.00)
-[INFO] - Lua mem usage: 8886 KB and 636 bytes
-[INFO] - Room 10.7( (copy))
-[INFO] - SpawnRNG seed: 2121133368
-[INFO] - Lua mem usage: 8891 KB and 505 bytes
-[INFO] - Action PillCard Triggered
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2917272262
-[INFO] - Lua mem usage: 8889 KB and 57 bytes
-[INFO] - Room 1.988(New Room)
-[INFO] - SpawnRNG seed: 4003890791
-[INFO] - Spawn Entity with Type(305), Variant(0), Pos(480.00,240.00)
-[INFO] - Spawn Entity with Type(305), Variant(0), Pos(440.00,280.00)
-[INFO] - Spawn Entity with Type(305), Variant(0), Pos(520.00,280.00)
-[INFO] - Spawn Entity with Type(305), Variant(0), Pos(480.00,320.00)
-[INFO] - Lua mem usage: 8893 KB and 809 bytes
-[INFO] - Queued Path music/Diptera Layer.ogg
-[INFO] - Queued Path music/Diptera Sonata(Basement).ogg
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.165()
-[INFO] - SpawnRNG seed: 2892535541
-[INFO] - Spawn Entity with Type(80), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(80), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(80), Variant(0), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8891 KB and 929 bytes
-[INFO] - Room 1.293(New Room)
-[INFO] - SpawnRNG seed: 1525936071
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(240.00,240.00)
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(400.00,240.00)
-[INFO] - Spawn Entity with Type(244), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(244), Variant(0), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(240.00,320.00)
-[INFO] - Spawn Entity with Type(217), Variant(0), Pos(400.00,320.00)
-[INFO] - Lua mem usage: 8898 KB and 217 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.982(New Room)
-[INFO] - SpawnRNG seed: 667208821
-[INFO] - Spawn Entity with Type(305), Variant(0), Pos(240.00,280.00)
-[INFO] - Spawn Entity with Type(305), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(305), Variant(0), Pos(400.00,280.00)
-[INFO] - Lua mem usage: 8893 KB and 1001 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 4.12()
-[INFO] - SpawnRNG seed: 2907094020
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8887 KB and 729 bytes
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 86 (Monstro's Tooth) to player 0 (Azazel)
-[INFO] - Room 1.982(New Room)
-[INFO] - SpawnRNG seed: 667208821
-[INFO] - Lua mem usage: 8889 KB and 1019 bytes
-[INFO] - music stopped playing
-[INFO] - Room 1.627(New Room)
-[INFO] - SpawnRNG seed: 1735025142
-[INFO] - Spawn Entity with Type(281), Variant(0), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8884 KB and 918 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1014(New Room)
-[INFO] - SpawnRNG seed: 1024158629
-[INFO] - Spawn Entity with Type(257), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(257), Variant(0), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8903 KB and 486 bytes
-[INFO] - Total entity spawn time: 5045 ms
-[INFO] - Total ANM2 loading time: 836 ms
-[INFO] - AnmCache memory usage: 3844720 bytes in 239 entries.
-[INFO] - Action PillCard Triggered
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 5.1046(Larry Jr. (copy))
-[INFO] - SpawnRNG seed: 1141414888
-[INFO] - Spawn Entity with Type(19), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(0), Pos(120.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(0), Pos(520.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(0), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(0), Pos(80.00,400.00)
-[INFO] - Spawn Entity with Type(19), Variant(0), Pos(120.00,400.00)
-[INFO] - Spawn Entity with Type(19), Variant(0), Pos(520.00,400.00)
-[INFO] - Spawn Entity with Type(19), Variant(0), Pos(560.00,400.00)
-[INFO] - Lua mem usage: 8897 KB and 110 bytes
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - TriggerBossDeath: 7 bosses remaining.
-[INFO] - TriggerBossDeath: 6 bosses remaining.
-[INFO] - TriggerBossDeath: 5 bosses remaining.
-[INFO] - TriggerBossDeath: 4 bosses remaining.
-[INFO] - TriggerBossDeath: 3 bosses remaining.
-[INFO] - TriggerBossDeath: 2 bosses remaining.
-[INFO] - TriggerBossDeath: 1 bosses remaining.
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - deathspawn_boss, color idx 1
-[INFO] - Boss 2 added to SaveState
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 198 (Box) to player 0 (Azazel)
-[INFO] - music stopped playing
-[INFO] - Action PillCard Triggered
-[INFO] - Queued Path music/The Calm.ogg
-[INFO] - item queue flush
-[INFO] - Adding trinket 93 (Used Diaper) to player 0 (Azazel)
-[INFO] - Action PillCard Triggered
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1014(New Room)
-[INFO] - SpawnRNG seed: 1024158629
-[INFO] - Lua mem usage: 8888 KB and 834 bytes
-[INFO] - Room 1.627(New Room)
-[INFO] - SpawnRNG seed: 1735025142
-[INFO] - Lua mem usage: 8905 KB and 218 bytes
-[INFO] - Room 1.982(New Room)
-[INFO] - SpawnRNG seed: 667208821
-[INFO] - Lua mem usage: 8891 KB and 970 bytes
-[INFO] - Room 1.936(New Room (copy))
-[INFO] - SpawnRNG seed: 2889877007
-[INFO] - Spawn Entity with Type(302), Variant(0), Pos(120.00,160.00)
-[INFO] - Spawn Entity with Type(10), Variant(0), Pos(560.00,240.00)
-[INFO] - Spawn Entity with Type(10), Variant(0), Pos(440.00,280.00)
-[INFO] - Spawn Entity with Type(10), Variant(0), Pos(520.00,280.00)
-[INFO] - Spawn Entity with Type(10), Variant(0), Pos(560.00,320.00)
-[INFO] - Spawn Entity with Type(302), Variant(0), Pos(120.00,400.00)
-[INFO] - Lua mem usage: 8888 KB and 786 bytes
-[INFO] - Room 2.0(Shop L1)
-[INFO] - SpawnRNG seed: 3466335636
-[INFO] - Spawn Entity with Type(6), Variant(8), Pos(200.00,160.00)
-[INFO] - Spawn Entity with Type(17), Variant(0), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(360.00,320.00)
-[INFO] - Lua mem usage: 8896 KB and 642 bytes
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 139 (Mom's Purse) to player 0 (Azazel)
-[INFO] - Queued Path music/Store Loop.ogg
-[INFO] - item queue flush
-[INFO] - Adding trinket 112 (Pay To Win) to player 0 (Azazel)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.936(New Room (copy))
-[INFO] - SpawnRNG seed: 2889877007
-[INFO] - Lua mem usage: 8892 KB and 407 bytes
-[INFO] - Room 1.982(New Room)
-[INFO] - SpawnRNG seed: 667208821
-[INFO] - Lua mem usage: 8892 KB and 999 bytes
-[INFO] - Room 1.293(New Room)
-[INFO] - SpawnRNG seed: 1525936071
-[INFO] - Lua mem usage: 8901 KB and 871 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 7.6()
-[INFO] - SpawnRNG seed: 739371697
-[INFO] - Spawn Entity with Type(17), Variant(0), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(5), Variant(50), Pos(320.00,320.00)
-[INFO] - Lua mem usage: 8897 KB and 567 bytes
-[INFO] - music stopped playing
-[INFO] - Room 1.293(New Room)
-[INFO] - SpawnRNG seed: 1525936071
-[INFO] - Lua mem usage: 8902 KB and 135 bytes
-[INFO] - Room 1.165()
-[INFO] - SpawnRNG seed: 2892535541
-[INFO] - Lua mem usage: 8908 KB and 383 bytes
-[INFO] - Room 6.2030(Sloth)
-[INFO] - SpawnRNG seed: 3464996643
-[INFO] - Spawn Entity with Type(46), Variant(0), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8892 KB and 999 bytes
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - MiniBoss 0 added to SaveState
-[INFO] - music stopped playing
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.165()
-[INFO] - SpawnRNG seed: 2892535541
-[INFO] - Lua mem usage: 8902 KB and 355 bytes
-[INFO] - Room 1.988(New Room)
-[INFO] - SpawnRNG seed: 4003890791
-[INFO] - Lua mem usage: 8890 KB and 43 bytes
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2917272262
-[INFO] - Lua mem usage: 8893 KB and 227 bytes
-[INFO] - Room 1.151()
-[INFO] - SpawnRNG seed: 4147274623
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8902 KB and 131 bytes
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 2917272262
-[INFO] - Lua mem usage: 8908 KB and 379 bytes
-[INFO] - Room 1.988(New Room)
-[INFO] - SpawnRNG seed: 4003890791
-[INFO] - Lua mem usage: 8910 KB and 931 bytes
-[INFO] - Room 1.165()
-[INFO] - SpawnRNG seed: 2892535541
-[INFO] - Lua mem usage: 8902 KB and 67 bytes
-[INFO] - Room 1.293(New Room)
-[INFO] - SpawnRNG seed: 1525936071
-[INFO] - Lua mem usage: 8903 KB and 1003 bytes
-[INFO] - Queued Path music/Diptera Layer.ogg
-[INFO] - Queued Path music/Diptera Sonata(Basement).ogg
-[INFO] - Room 1.982(New Room)
-[INFO] - SpawnRNG seed: 667208821
-[INFO] - Lua mem usage: 8893 KB and 323 bytes
-[INFO] - Room 1.627(New Room)
-[INFO] - SpawnRNG seed: 1735025142
-[INFO] - Lua mem usage: 8893 KB and 227 bytes
-[INFO] - Room 1.1014(New Room)
-[INFO] - SpawnRNG seed: 1024158629
-[INFO] - Lua mem usage: 8893 KB and 227 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 8.4()
-[INFO] - SpawnRNG seed: 3087154586
-[INFO] - Spawn Entity with Type(5), Variant(350), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8903 KB and 1003 bytes
-[INFO] - music stopped playing
-[INFO] - item queue flush
-[INFO] - Adding trinket 42 (Lucky Toe) to player 0 (Azazel)
-[INFO] - item queue flush
-[INFO] - Adding trinket 93 (Used Diaper) to player 0 (Azazel)
-[INFO] - Room 1.1014(New Room)
-[INFO] - SpawnRNG seed: 1024158629
-[INFO] - Lua mem usage: 8911 KB and 714 bytes
-[INFO] - Room 5.1046(Larry Jr. (copy))
-[INFO] - SpawnRNG seed: 1141414888
-[INFO] - Lua mem usage: 8891 KB and 245 bytes
-[INFO] - Level::Init m_Stage 3, m_StageType 2 Seed 1534094139
-[INFO] - Curse of Darkness!
-[INFO] - delete 0 generated rooms.
-[INFO] - [RoomConfig] load stage 6: Flooded Caves (mode 0)
-[INFO] - allocate 1285 rooms.
-[INFO] - [ModManager] load stage 6: Flooded Caves (mode 0)
-[INFO] - [ModManager] load stage 6: Flooded Caves (mode 0)
-[INFO] - [ModManager] load stage 6: Flooded Caves (mode 0)
-[INFO] - [ModManager] load stage 6: Flooded Caves (mode 0)
-[INFO] - [ModManager] load stage 6: Flooded Caves (mode 0)
-[INFO] - generate...
-[INFO] - place_room: shape 11
-[INFO] - place_room: shape 4
-[INFO] - 19 rooms in 13 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4034616563
-[INFO] - Lua mem usage: 8890 KB and 933 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Action PillCard Triggered
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 14.17(Devil (Shop) (copy))
-[INFO] - SpawnRNG seed: 3385892472
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(120.00,160.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(520.00,160.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(200.00,200.00)
-[INFO] - Spawn Entity with Type(33), Variant(1), Pos(440.00,200.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(280.00,240.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(360.00,240.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(200.00,280.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(440.00,280.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(360.00,320.00)
-[INFO] - Spawn Entity with Type(33), Variant(1), Pos(80.00,400.00)
-[INFO] - Spawn Entity with Type(33), Variant(1), Pos(560.00,400.00)
-[INFO] - Lua mem usage: 8896 KB and 201 bytes
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 81 (Dead Cat) to player 0 (Azazel)
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 275 (Lil Brimstone) to player 0 (Azazel)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4034616563
-[INFO] - Lua mem usage: 8918 KB and 1001 bytes
-[INFO] - Room 11.1()
-[INFO] - SpawnRNG seed: 2388394917
-[INFO] - Spawn Entity with Type(5), Variant(50), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8904 KB and 702 bytes
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4034616563
-[INFO] - Lua mem usage: 8901 KB and 62 bytes
-[INFO] - Room 1.981(New Room)
-[INFO] - SpawnRNG seed: 750744700
-[INFO] - Spawn Entity with Type(311), Variant(0), Pos(160.00,280.00)
-[INFO] - Spawn Entity with Type(302), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(311), Variant(0), Pos(480.00,280.00)
-[INFO] - Lua mem usage: 8909 KB and 926 bytes
-[INFO] - Queued Path music/Afterbirth/Kave Diluvii (Flooded Caves) Layer.ogg
-[INFO] - Queued Path music/Afterbirth/Kave Diluvii (Flooded Caves) loop.ogg
-[INFO] - Room 4.31()
-[INFO] - SpawnRNG seed: 838828420
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8901 KB and 166 bytes
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 14 (Roid Rage) to player 0 (Azazel)
-[INFO] - music stopped playing
-[INFO] - Room 1.981(New Room)
-[INFO] - SpawnRNG seed: 750744700
-[INFO] - Lua mem usage: 8901 KB and 672 bytes
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4034616563
-[INFO] - Lua mem usage: 8910 KB and 512 bytes
-[INFO] - Room 1.1193(New Room)
-[INFO] - SpawnRNG seed: 924817337
-[INFO] - Spawn Entity with Type(234), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(202), Variant(0), Pos(320.00,160.00)
-[INFO] - Spawn Entity with Type(234), Variant(0), Pos(560.00,160.00)
-[INFO] - Lua mem usage: 8897 KB and 48 bytes
-[INFO] - Room 1.972(New Room)
-[INFO] - SpawnRNG seed: 2865067552
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(160.00,160.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(311), Variant(0), Pos(320.00,240.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(520.00,360.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(480.00,400.00)
-[INFO] - Lua mem usage: 8901 KB and 480 bytes
-[INFO] - Room 1.1193(New Room)
-[INFO] - SpawnRNG seed: 924817337
-[INFO] - Spawn Entity with Type(202), Variant(0), Pos(320.00,160.00)
-[INFO] - Lua mem usage: 8899 KB and 320 bytes
-[INFO] - Room 1.972(New Room)
-[INFO] - SpawnRNG seed: 2865067552
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(160.00,160.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(311), Variant(0), Pos(320.00,240.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(520.00,360.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(480.00,400.00)
-[INFO] - Lua mem usage: 8906 KB and 592 bytes
-[INFO] - Room 1.1193(New Room)
-[INFO] - SpawnRNG seed: 924817337
-[INFO] - Spawn Entity with Type(202), Variant(0), Pos(320.00,160.00)
-[INFO] - Lua mem usage: 8901 KB and 288 bytes
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4034616563
-[INFO] - Lua mem usage: 8899 KB and 224 bytes
-[INFO] - Room 1.279(New Room)
-[INFO] - SpawnRNG seed: 1895792187
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(80.00,400.00)
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(560.00,400.00)
-[INFO] - Lua mem usage: 8912 KB and 592 bytes
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4034616563
-[INFO] - Lua mem usage: 8894 KB and 688 bytes
-[INFO] - Room 1.1193(New Room)
-[INFO] - SpawnRNG seed: 924817337
-[INFO] - Spawn Entity with Type(202), Variant(0), Pos(320.00,160.00)
-[INFO] - Lua mem usage: 8897 KB and 48 bytes
-[INFO] - Room 1.972(New Room)
-[INFO] - SpawnRNG seed: 2865067552
-[INFO] - Spawn Entity with Type(23), Variant(0), Pos(160.00,160.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(311), Variant(0), Pos(320.00,240.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(520.00,360.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(480.00,400.00)
-[INFO] - Lua mem usage: 8910 KB and 480 bytes
-[INFO] - Room 1.1264(New Room)
-[INFO] - SpawnRNG seed: 614886357
-[INFO] - Spawn Entity with Type(217), Variant(1), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(868), Variant(0), Pos(560.00,240.00)
-[INFO] - Spawn Entity with Type(217), Variant(1), Pos(120.00,280.00)
-[INFO] - Spawn Entity with Type(868), Variant(0), Pos(560.00,280.00)
-[INFO] - Spawn Entity with Type(868), Variant(0), Pos(560.00,320.00)
-[INFO] - Spawn Entity with Type(217), Variant(1), Pos(120.00,360.00)
-[INFO] - Lua mem usage: 8901 KB and 544 bytes
-[INFO] - Room 1.1262(New Room)
-[INFO] - SpawnRNG seed: 2088774809
-[INFO] - Spawn Entity with Type(217), Variant(1), Pos(120.00,240.00)
-[INFO] - Spawn Entity with Type(217), Variant(1), Pos(480.00,240.00)
-[INFO] - Spawn Entity with Type(15), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(217), Variant(1), Pos(160.00,320.00)
-[INFO] - Spawn Entity with Type(217), Variant(1), Pos(520.00,320.00)
-[INFO] - Lua mem usage: 8914 KB and 1008 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.840(New Room (copy))
-[INFO] - SpawnRNG seed: 2971699277
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(280.00,240.00)
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(360.00,240.00)
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(227), Variant(0), Pos(360.00,320.00)
-[INFO] - Lua mem usage: 8899 KB and 128 bytes
-[INFO] - Room 2.0(Shop L1)
-[INFO] - SpawnRNG seed: 813943801
-[INFO] - Spawn Entity with Type(6), Variant(8), Pos(200.00,160.00)
-[INFO] - Spawn Entity with Type(17), Variant(0), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(360.00,320.00)
-[INFO] - Lua mem usage: 8894 KB and 100 bytes
-[INFO] - Room 1.840(New Room (copy))
-[INFO] - SpawnRNG seed: 2971699277
-[INFO] - Lua mem usage: 8902 KB and 355 bytes
-[INFO] - Room 1.284(New Room)
-[INFO] - SpawnRNG seed: 1708406433
-[INFO] - Spawn Entity with Type(25), Variant(2), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(229), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(25), Variant(2), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8912 KB and 915 bytes
-[INFO] - Room 1.1052(New Room)
-[INFO] - SpawnRNG seed: 2542063152
-[INFO] - Spawn Entity with Type(26), Variant(1), Pos(160.00,280.00)
-[INFO] - Spawn Entity with Type(26), Variant(1), Pos(480.00,280.00)
-[INFO] - Lua mem usage: 8897 KB and 531 bytes
-[INFO] - Queued Path music/Afterbirth/Kave Diluvii (Flooded Caves) Layer.ogg
-[INFO] - Queued Path music/Afterbirth/Kave Diluvii (Flooded Caves) loop.ogg
-[INFO] - Room 1.284(New Room)
-[INFO] - SpawnRNG seed: 1708406433
-[INFO] - Lua mem usage: 8904 KB and 83 bytes
-[INFO] - Room 1.991(New Room)
-[INFO] - SpawnRNG seed: 1740638918
-[INFO] - Spawn Entity with Type(248), Variant(0), Pos(320.00,160.00)
-[INFO] - Spawn Entity with Type(311), Variant(0), Pos(240.00,240.00)
-[INFO] - Spawn Entity with Type(311), Variant(0), Pos(400.00,240.00)
-[INFO] - Spawn Entity with Type(33), Variant(2), Pos(120.00,400.00)
-[INFO] - Spawn Entity with Type(33), Variant(2), Pos(520.00,400.00)
-[INFO] - Lua mem usage: 8904 KB and 83 bytes
-[INFO] - Room 1.1155(New Room)
-[INFO] - SpawnRNG seed: 4011818992
-[INFO] - Spawn Entity with Type(288), Variant(0), Pos(400.00,360.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(240.00,400.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(400.00,400.00)
-[INFO] - Spawn Entity with Type(288), Variant(0), Pos(240.00,480.00)
-[INFO] - Lua mem usage: 8899 KB and 611 bytes
-[INFO] - Room 1.991(New Room)
-[INFO] - SpawnRNG seed: 1740638918
-[INFO] - Lua mem usage: 8900 KB and 643 bytes
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Room 1.1155(New Room)
-[INFO] - SpawnRNG seed: 4011818992
-[INFO] - Spawn Entity with Type(288), Variant(0), Pos(400.00,360.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(240.00,400.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(400.00,400.00)
-[INFO] - Spawn Entity with Type(288), Variant(0), Pos(240.00,480.00)
-[INFO] - Lua mem usage: 8894 KB and 283 bytes
-[INFO] - Room 1.1100(New Room)
-[INFO] - SpawnRNG seed: 3001467934
-[INFO] - Spawn Entity with Type(61), Variant(5), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(61), Variant(5), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8899 KB and 611 bytes
-[INFO] - Room 1.481(New Room)
-[INFO] - SpawnRNG seed: 2737308809
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(160.00,160.00)
-[INFO] - Spawn Entity with Type(26), Variant(1), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(80.00,240.00)
-[INFO] - Lua mem usage: 8910 KB and 995 bytes
-[INFO] - Room 5.1059(Gurdy (copy))
-[INFO] - SpawnRNG seed: 2513320447
-[INFO] - Spawn Entity with Type(36), Variant(0), Pos(320.00,240.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(240.00,280.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(400.00,280.00)
-[INFO] - Spawn Entity with Type(30), Variant(0), Pos(80.00,400.00)
-[INFO] - Spawn Entity with Type(30), Variant(0), Pos(560.00,400.00)
-[INFO] - Lua mem usage: 8904 KB and 83 bytes
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - deathspawn_boss, color idx -1
-[INFO] - Boss 4 added to SaveState
-[INFO] - item taken without exchange
-[INFO] - music stopped playing
-[INFO] - item queue flush
-[INFO] - Adding collectible 22 (Lunch) to player 0 (Azazel)
-[INFO] - Level::Init m_Stage 4, m_StageType 2 Seed 2115921507
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 8
-[INFO] - place_room: shape 9
-[INFO] - place_room: shape 5
-[INFO] - 21 rooms in 12 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 999893779
-[INFO] - Lua mem usage: 8895 KB and 89 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 4.28()
-[INFO] - SpawnRNG seed: 2971990756
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(520.00,200.00)
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(520.00,280.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(520.00,360.00)
-[INFO] - Lua mem usage: 8917 KB and 805 bytes
-[INFO] - music stopped playing
-[INFO] - Queued Path music/Afterbirth/Kave Diluvii (Flooded Caves) Layer.ogg
-[INFO] - Queued Path music/Afterbirth/Kave Diluvii (Flooded Caves) loop.ogg
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 506 (Backstabber) to player 0 (Azazel)
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 999893779
-[INFO] - Lua mem usage: 8910 KB and 16 bytes
-[INFO] - Room 1.311(New Room)
-[INFO] - SpawnRNG seed: 2730750717
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(80.00,280.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(560.00,280.00)
-[INFO] - Lua mem usage: 8909 KB and 224 bytes
-[INFO] - Room 1.217(New Room)
-[INFO] - SpawnRNG seed: 2583532278
-[INFO] - Spawn Entity with Type(208), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(210), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(208), Variant(0), Pos(360.00,280.00)
-[INFO] - Lua mem usage: 8909 KB and 224 bytes
-[INFO] - Total entity spawn time: 7865 ms
-[INFO] - Total ANM2 loading time: 1089 ms
-[INFO] - AnmCache memory usage: 4519384 bytes in 278 entries.
-[INFO] - Room 1.1251(New Room)
-[INFO] - SpawnRNG seed: 540983060
-[INFO] - Spawn Entity with Type(30), Variant(0), Pos(160.00,160.00)
-[INFO] - Spawn Entity with Type(30), Variant(0), Pos(480.00,160.00)
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(30), Variant(0), Pos(160.00,400.00)
-[INFO] - Spawn Entity with Type(30), Variant(0), Pos(480.00,400.00)
-[INFO] - Lua mem usage: 8909 KB and 320 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1229(New Room)
-[INFO] - SpawnRNG seed: 1273529290
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(840.00,280.00)
-[INFO] - Spawn Entity with Type(244), Variant(0), Pos(560.00,440.00)
-[INFO] - Spawn Entity with Type(244), Variant(0), Pos(680.00,440.00)
-[INFO] - Spawn Entity with Type(244), Variant(0), Pos(600.00,480.00)
-[INFO] - Spawn Entity with Type(255), Variant(0), Pos(640.00,480.00)
-[INFO] - Spawn Entity with Type(5), Variant(69), Pos(800.00,480.00)
-[INFO] - Spawn Entity with Type(244), Variant(0), Pos(560.00,520.00)
-[INFO] - Spawn Entity with Type(244), Variant(0), Pos(680.00,520.00)
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(320.00,560.00)
-[INFO] - Spawn Entity with Type(5), Variant(90), Pos(1080.00,680.00)
-[INFO] - Lua mem usage: 8900 KB and 320 bytes
-[INFO] - Room 1.134()
-[INFO] - SpawnRNG seed: 3183681573
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(300), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(80.00,400.00)
-[INFO] - Spawn Entity with Type(26), Variant(0), Pos(560.00,400.00)
-[INFO] - Lua mem usage: 8895 KB and 128 bytes
-[INFO] - Room 1.745(New Room (copy))
-[INFO] - SpawnRNG seed: 3841597082
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(720.00,240.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(240.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(600.00,360.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(360.00,400.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(560.00,440.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(280.00,520.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(440.00,560.00)
-[INFO] - Spawn Entity with Type(23), Variant(1), Pos(160.00,640.00)
-[INFO] - Lua mem usage: 8900 KB and 256 bytes
-[INFO] - Room 1.496(New Room)
-[INFO] - SpawnRNG seed: 2298847940
-[INFO] - Spawn Entity with Type(85), Variant(0), Pos(160.00,160.00)
-[INFO] - Spawn Entity with Type(242), Variant(0), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(242), Variant(0), Pos(560.00,280.00)
-[INFO] - Spawn Entity with Type(85), Variant(0), Pos(160.00,400.00)
-[INFO] - Spawn Entity with Type(242), Variant(0), Pos(560.00,400.00)
-[INFO] - Lua mem usage: 8904 KB and 582 bytes
-[INFO] - Room 20.29(The Chest Room (Placeholder))
-[INFO] - SpawnRNG seed: 569412020
-[INFO] - Spawn Entity with Type(5), Variant(300), Pos(240.00,280.00)
-[INFO] - Spawn Entity with Type(5), Variant(300), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(5), Variant(300), Pos(400.00,280.00)
-[INFO] - Lua mem usage: 8899 KB and 950 bytes
-[INFO] - Action PillCard Triggered
-[INFO] - Action PillCard Triggered
-[WARN] - Attempting to set pan on non-mono source (sfx/voiceover/Rune Shard.wav), this will have no effect
-[INFO] - Action PillCard Triggered
-[WARN] - Attempting to set pan on non-mono source (sfx/voiceover/Rune Shard.wav), this will have no effect
-[INFO] - Action PillCard Triggered
-[WARN] - Attempting to set pan on non-mono source (sfx/voiceover/Rune Shard.wav), this will have no effect
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.496(New Room)
-[INFO] - SpawnRNG seed: 2298847940
-[INFO] - Lua mem usage: 8913 KB and 934 bytes
-[INFO] - Room 1.745(New Room (copy))
-[INFO] - SpawnRNG seed: 3841597082
-[INFO] - Lua mem usage: 8900 KB and 502 bytes
-[INFO] - Room 1.134()
-[INFO] - SpawnRNG seed: 3183681573
-[INFO] - Lua mem usage: 8906 KB and 974 bytes
-[INFO] - Room 1.1229(New Room)
-[INFO] - SpawnRNG seed: 1273529290
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(840.00,280.00)
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(320.00,560.00)
-[INFO] - Lua mem usage: 8902 KB and 414 bytes
-[INFO] - Room 1.134()
-[INFO] - SpawnRNG seed: 3183681573
-[INFO] - Lua mem usage: 8919 KB and 150 bytes
-[INFO] - Room 1.1229(New Room)
-[INFO] - SpawnRNG seed: 1273529290
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(840.00,280.00)
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(320.00,560.00)
-[INFO] - Lua mem usage: 8902 KB and 414 bytes
-[INFO] - Room 1.155()
-[INFO] - SpawnRNG seed: 3390367988
-[INFO] - Spawn Entity with Type(6), Variant(4), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8900 KB and 598 bytes
-[INFO] - Action PillCard Triggered
-[INFO] - Action PillCard Triggered
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 16.0(ItemDungeon)
-[INFO] - SpawnRNG seed: 3649681246
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(280.00,280.00)
-[INFO] - Lua mem usage: 8900 KB and 350 bytes
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 318 (Gemini) to player 0 (Azazel)
-[INFO] - Room 1.155()
-[INFO] - SpawnRNG seed: 3390367988
-[INFO] - Lua mem usage: 8901 KB and 361 bytes
-[INFO] - Room 1.907(New Room)
-[INFO] - SpawnRNG seed: 3498263981
-[INFO] - Spawn Entity with Type(255), Variant(0), Pos(200.00,280.00)
-[INFO] - Spawn Entity with Type(244), Variant(1), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(244), Variant(1), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(255), Variant(0), Pos(440.00,280.00)
-[INFO] - Lua mem usage: 8916 KB and 785 bytes
-[INFO] - Room 5.3280(Gurdy Jr.)
-[INFO] - SpawnRNG seed: 611965838
-[INFO] - Spawn Entity with Type(99), Variant(0), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8901 KB and 345 bytes
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - TriggerBossDeath: 1 bosses remaining.
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - deathspawn_boss, color idx 0
-[INFO] - Boss 28 added to SaveState
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 23 (Dinner) to player 0 (Azazel)
-[INFO] - music stopped playing
-[INFO] - Level::Init m_Stage 5, m_StageType 2 Seed 643672764
-[INFO] - delete 0 generated rooms.
 [INFO] - [RoomConfig] load stage 9: Dank Depths (mode 0)
 [INFO] - allocate 1443 rooms.
 [INFO] - [ModManager] load stage 9: Dank Depths (mode 0)
@@ -2248,249 +282,17 @@
 [INFO] - [ModManager] load stage 9: Dank Depths (mode 0)
 [INFO] - [ModManager] load stage 9: Dank Depths (mode 0)
 [INFO] - [ModManager] load stage 9: Dank Depths (mode 0)
-[INFO] - generate...
-[INFO] - place_room: shape 12
-[INFO] - place_room: shape 9
-[INFO] - place_room: shape 8
-[INFO] - place_room: shape 8
-[INFO] - place_room: shape 8
-[INFO] - place_room: shape 6
-[INFO] - place_room: shape 6
-[INFO] - 22 rooms in 17 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 4245951213
-[INFO] - Lua mem usage: 8899 KB and 124 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1259(New Room)
-[INFO] - SpawnRNG seed: 3552997592
-[INFO] - Spawn Entity with Type(40), Variant(2), Pos(440.00,200.00)
-[INFO] - Spawn Entity with Type(40), Variant(2), Pos(480.00,240.00)
-[INFO] - Spawn Entity with Type(40), Variant(2), Pos(480.00,280.00)
-[INFO] - Spawn Entity with Type(24), Variant(2), Pos(80.00,360.00)
-[INFO] - Spawn Entity with Type(24), Variant(2), Pos(120.00,400.00)
-[INFO] - Lua mem usage: 8907 KB and 904 bytes
-[INFO] - Room 1.866(New Room)
-[INFO] - SpawnRNG seed: 4196342060
-[INFO] - Spawn Entity with Type(27), Variant(0), Pos(320.00,200.00)
-[INFO] - Lua mem usage: 8908 KB and 72 bytes
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Layer.ogg
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Loop.ogg
-[INFO] - Room 1.1012(New Room)
-[INFO] - SpawnRNG seed: 547229020
-[INFO] - Spawn Entity with Type(35), Variant(0), Pos(560.00,360.00)
-[INFO] - Spawn Entity with Type(35), Variant(0), Pos(600.00,360.00)
-[INFO] - Spawn Entity with Type(35), Variant(2), Pos(520.00,400.00)
-[INFO] - Spawn Entity with Type(35), Variant(0), Pos(640.00,440.00)
-[INFO] - Spawn Entity with Type(35), Variant(0), Pos(560.00,480.00)
-[INFO] - Spawn Entity with Type(35), Variant(0), Pos(600.00,480.00)
-[INFO] - Spawn Entity with Type(5), Variant(51), Pos(80.00,680.00)
-[INFO] - Lua mem usage: 8912 KB and 632 bytes
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 196 (Squeezy) to player 0 (Azazel)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1044(New Room)
-[INFO] - SpawnRNG seed: 2870604788
-[INFO] - Spawn Entity with Type(5), Variant(300), Pos(320.00,320.00)
-[INFO] - Lua mem usage: 8902 KB and 83 bytes
-[INFO] - Room 1.71()
-[INFO] - SpawnRNG seed: 2875429197
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(200.00,160.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(360.00,240.00)
-[INFO] - Spawn Entity with Type(5), Variant(60), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(440.00,400.00)
-[INFO] - Lua mem usage: 8921 KB and 99 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 2.0(Shop L1)
-[INFO] - SpawnRNG seed: 2415457865
-[INFO] - Spawn Entity with Type(6), Variant(8), Pos(200.00,160.00)
-[INFO] - Spawn Entity with Type(17), Variant(1), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(360.00,320.00)
-[INFO] - Lua mem usage: 8916 KB and 843 bytes
-[INFO] - Room 1.71()
-[INFO] - SpawnRNG seed: 2875429197
-[INFO] - Lua mem usage: 8919 KB and 771 bytes
-[INFO] - Room 1.1116(New Room)
-[INFO] - SpawnRNG seed: 809382443
-[INFO] - Spawn Entity with Type(878), Variant(0), Pos(280.00,160.00)
-[INFO] - Spawn Entity with Type(878), Variant(0), Pos(360.00,160.00)
-[INFO] - Spawn Entity with Type(23), Variant(2), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(2), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(878), Variant(0), Pos(280.00,400.00)
-[INFO] - Spawn Entity with Type(878), Variant(0), Pos(360.00,400.00)
-[INFO] - Lua mem usage: 8907 KB and 358 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.71()
-[INFO] - SpawnRNG seed: 2875429197
-[INFO] - Lua mem usage: 8908 KB and 1006 bytes
-[INFO] - Room 1.1044(New Room)
-[INFO] - SpawnRNG seed: 2870604788
-[INFO] - Lua mem usage: 8916 KB and 710 bytes
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Layer.ogg
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Loop.ogg
-[INFO] - Room 1.1012(New Room)
-[INFO] - SpawnRNG seed: 547229020
-[INFO] - Lua mem usage: 8904 KB and 574 bytes
-[INFO] - Room 1.572(New Room (copy))
-[INFO] - SpawnRNG seed: 3534238529
-[INFO] - Spawn Entity with Type(212), Variant(1), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(212), Variant(1), Pos(240.00,360.00)
-[INFO] - Spawn Entity with Type(86), Variant(0), Pos(320.00,360.00)
-[INFO] - Spawn Entity with Type(212), Variant(1), Pos(400.00,360.00)
-[INFO] - Lua mem usage: 8899 KB and 350 bytes
-[INFO] - Room 1.1012(New Room)
-[INFO] - SpawnRNG seed: 547229020
-[INFO] - Lua mem usage: 8899 KB and 350 bytes
-[INFO] - Room 1.1044(New Room)
-[INFO] - SpawnRNG seed: 2870604788
-[INFO] - Lua mem usage: 8899 KB and 382 bytes
-[INFO] - Room 1.71()
-[INFO] - SpawnRNG seed: 2875429197
-[INFO] - Lua mem usage: 8905 KB and 542 bytes
-[INFO] - Room 2.0(Shop L1)
-[INFO] - SpawnRNG seed: 2415457865
-[INFO] - Lua mem usage: 8916 KB and 1006 bytes
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 424 (Sack Head) to player 0 (Azazel)
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.71()
-[INFO] - SpawnRNG seed: 2875429197
-[INFO] - Lua mem usage: 8912 KB and 470 bytes
-[INFO] - Room 2.0(Shop L1)
-[INFO] - SpawnRNG seed: 2415457865
-[INFO] - Lua mem usage: 8907 KB and 550 bytes
-[INFO] - Action PillCard Triggered
-[INFO] - Queued Path music/Store Loop.ogg
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.71()
-[INFO] - SpawnRNG seed: 2875429197
-[INFO] - Lua mem usage: 8918 KB and 750 bytes
-[INFO] - Room 1.1044(New Room)
-[INFO] - SpawnRNG seed: 2870604788
-[INFO] - Lua mem usage: 8911 KB and 822 bytes
-[INFO] - Room 1.1012(New Room)
-[INFO] - SpawnRNG seed: 547229020
-[INFO] - Lua mem usage: 8902 KB and 822 bytes
-[INFO] - Room 1.1343(New Room)
-[INFO] - SpawnRNG seed: 2657027045
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(840.00,280.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(600.00,360.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(600.00,400.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(560.00,440.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(560.00,480.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(600.00,480.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(680.00,480.00)
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(320.00,560.00)
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(840.00,560.00)
-[INFO] - Lua mem usage: 8911 KB and 684 bytes
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Layer.ogg
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Loop.ogg
-[INFO] - Room 1.402(New Room)
-[INFO] - SpawnRNG seed: 2522966068
-[INFO] - Spawn Entity with Type(212), Variant(1), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(72), Variant(0), Pos(520.00,200.00)
-[INFO] - Spawn Entity with Type(72), Variant(0), Pos(640.00,200.00)
-[INFO] - Spawn Entity with Type(212), Variant(1), Pos(480.00,280.00)
-[INFO] - Spawn Entity with Type(212), Variant(1), Pos(680.00,280.00)
-[INFO] - Spawn Entity with Type(72), Variant(0), Pos(520.00,360.00)
-[INFO] - Spawn Entity with Type(72), Variant(0), Pos(640.00,360.00)
-[INFO] - Spawn Entity with Type(212), Variant(0), Pos(1040.00,360.00)
-[INFO] - Lua mem usage: 8913 KB and 628 bytes
-[INFO] - TriggerBossDeath: 5 bosses remaining.
-[INFO] - TriggerBossDeath: 4 bosses remaining.
-[INFO] - TriggerBossDeath: 3 bosses remaining.
-[INFO] - TriggerBossDeath: 4 bosses remaining.
-[INFO] - TriggerBossDeath: 3 bosses remaining.
-[INFO] - TriggerBossDeath: 4 bosses remaining.
-[INFO] - TriggerBossDeath: 3 bosses remaining.
-[INFO] - TriggerBossDeath: 2 bosses remaining.
-[INFO] - TriggerBossDeath: 3 bosses remaining.
-[INFO] - TriggerBossDeath: 2 bosses remaining.
-[INFO] - TriggerBossDeath: 1 bosses remaining.
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - deathspawn_boss, color idx -1
-[INFO] - Boss 18 added to SaveState
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 4.24()
-[INFO] - SpawnRNG seed: 3602198388
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8903 KB and 372 bytes
-[INFO] - item taken without exchange
-[INFO] - music stopped playing
-[INFO] - item queue flush
-[INFO] - Adding collectible 68 (Technology) to player 0 (Azazel)
-[INFO] - Room 1.402(New Room)
-[INFO] - SpawnRNG seed: 2522966068
-[INFO] - Lua mem usage: 8901 KB and 2 bytes
-[INFO] - Room 1.973(New Room)
-[INFO] - SpawnRNG seed: 2051671277
-[INFO] - Spawn Entity with Type(23), Variant(2), Pos(160.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(2), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(2), Pos(480.00,280.00)
-[INFO] - Lua mem usage: 8910 KB and 70 bytes
-[INFO] - Room 1.277(New Room)
-[INFO] - SpawnRNG seed: 3979784177
-[INFO] - Spawn Entity with Type(252), Variant(0), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8900 KB and 406 bytes
-[INFO] - Room 1.698((trap room))
-[INFO] - SpawnRNG seed: 1211630815
-[INFO] - Lua mem usage: 8921 KB and 750 bytes
-[INFO] - Room 1.1249(New Room)
-[INFO] - SpawnRNG seed: 223370376
-[INFO] - Spawn Entity with Type(220), Variant(1), Pos(520.00,200.00)
-[INFO] - Spawn Entity with Type(40), Variant(2), Pos(240.00,280.00)
-[INFO] - Spawn Entity with Type(40), Variant(2), Pos(400.00,280.00)
-[INFO] - Spawn Entity with Type(220), Variant(1), Pos(120.00,360.00)
-[INFO] - Lua mem usage: 8921 KB and 750 bytes
-[INFO] - Room 5.1050(Monstro II)
-[INFO] - SpawnRNG seed: 3871312245
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(280.00,200.00)
-[INFO] - Spawn Entity with Type(43), Variant(0), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(18), Variant(0), Pos(360.00,200.00)
-[INFO] - Lua mem usage: 8908 KB and 190 bytes
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - deathspawn_boss, color idx -1
-[INFO] - Boss 5 added to SaveState
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 25 (Breakfast) to player 0 (Azazel)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 14.2(Devil (Shop) (copy))
-[INFO] - SpawnRNG seed: 3540546293
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(200.00,200.00)
-[INFO] - Spawn Entity with Type(33), Variant(0), Pos(440.00,200.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(240.00,320.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(320.00,320.00)
-[INFO] - Spawn Entity with Type(5), Variant(150), Pos(400.00,320.00)
-[INFO] - Lua mem usage: 8915 KB and 944 bytes
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 503 (Little Horn) to player 0 (Azazel)
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 5.1050(Monstro II)
-[INFO] - SpawnRNG seed: 3871312245
-[INFO] - Lua mem usage: 8911 KB and 521 bytes
-[INFO] - Level::Init m_Stage 6, m_StageType 2 Seed 3608551296
-[INFO] - Curse of Blind
-[INFO] - delete 0 generated rooms.
-[INFO] - generate...
-[INFO] - 22 rooms in 13 loops
-[INFO] - placing rooms...
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 54b55f74
+[INFO] - [RoomConfig] load stage 13: ??? (mode 0)
+[INFO] - allocate 30 rooms.
+[INFO] - [ModManager] load stage 13: ??? (mode 0)
+[INFO] - [ModManager] load stage 13: ??? (mode 0)
+[INFO] - [ModManager] load stage 13: ??? (mode 0)
+[INFO] - [ModManager] load stage 13: ??? (mode 0)
+[INFO] - [ModManager] load stage 13: ??? (mode 0)
 [INFO] - Room 1.2(Start Room)
 [INFO] - SpawnRNG seed: 1443034062
-[INFO] - Lua mem usage: 8903 KB and 129 bytes
+[INFO] - Lua mem usage: 8597 KB and 144 bytes
+[INFO] - music stopped playing
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
 [INFO] - Room 1.1114(New Room)
 [INFO] - SpawnRNG seed: 2151041319
@@ -2501,207 +303,223 @@
 [INFO] - Spawn Entity with Type(878), Variant(0), Pos(520.00,280.00)
 [INFO] - Spawn Entity with Type(878), Variant(0), Pos(120.00,320.00)
 [INFO] - Spawn Entity with Type(878), Variant(0), Pos(520.00,320.00)
-[INFO] - Lua mem usage: 8902 KB and 189 bytes
-[INFO] - Room 1.805(New Room (copy))
-[INFO] - SpawnRNG seed: 1175307642
-[INFO] - Spawn Entity with Type(19), Variant(1), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(1), Pos(120.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(1), Pos(160.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(1), Pos(200.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(1), Pos(440.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(1), Pos(480.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(1), Pos(520.00,160.00)
-[INFO] - Spawn Entity with Type(19), Variant(1), Pos(560.00,160.00)
-[INFO] - Lua mem usage: 8902 KB and 189 bytes
-[INFO] - TriggerBossDeath: 7 bosses remaining.
-[INFO] - TriggerBossDeath: 6 bosses remaining.
-[INFO] - TriggerBossDeath: 5 bosses remaining.
-[INFO] - TriggerBossDeath: 4 bosses remaining.
-[INFO] - TriggerBossDeath: 3 bosses remaining.
-[INFO] - TriggerBossDeath: 2 bosses remaining.
-[INFO] - TriggerBossDeath: 1 bosses remaining.
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - deathspawn_boss, color idx 2
-[INFO] - Boss 26 added to SaveState
+[INFO] - Lua mem usage: 8870 KB and 932 bytes
+[INFO] - Total entity spawn time: 220 ms
+[INFO] - Total ANM2 loading time: 248 ms
+[INFO] - AnmCache memory usage: 2300524 bytes in 131 entries.
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1297(New Room)
-[INFO] - SpawnRNG seed: 1977954819
-[INFO] - Spawn Entity with Type(307), Variant(0), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(202), Variant(0), Pos(200.00,280.00)
-[INFO] - Spawn Entity with Type(202), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(202), Variant(0), Pos(440.00,280.00)
-[INFO] - Spawn Entity with Type(307), Variant(0), Pos(320.00,360.00)
-[INFO] - Lua mem usage: 8914 KB and 501 bytes
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Layer.ogg
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Loop.ogg
-[INFO] - Room 1.805(New Room (copy))
-[INFO] - SpawnRNG seed: 1175307642
-[INFO] - Lua mem usage: 8914 KB and 597 bytes
-[INFO] - Room 1.1114(New Room)
-[INFO] - SpawnRNG seed: 2151041319
-[INFO] - Lua mem usage: 8909 KB and 997 bytes
-[INFO] - Room 1.2(Start Room)
-[INFO] - SpawnRNG seed: 1443034062
-[INFO] - Lua mem usage: 8919 KB and 5 bytes
-[INFO] - Room 1.1366(New Room)
-[INFO] - SpawnRNG seed: 902451670
-[INFO] - Spawn Entity with Type(213), Variant(0), Pos(80.00,160.00)
-[INFO] - Spawn Entity with Type(39), Variant(0), Pos(320.00,160.00)
-[INFO] - Spawn Entity with Type(39), Variant(0), Pos(200.00,200.00)
-[INFO] - Spawn Entity with Type(39), Variant(0), Pos(440.00,200.00)
-[INFO] - Lua mem usage: 8909 KB and 997 bytes
-[INFO] - Room 1.586(New Room (copy))
-[INFO] - SpawnRNG seed: 1242874692
-[INFO] - Spawn Entity with Type(277), Variant(0), Pos(520.00,200.00)
-[INFO] - Spawn Entity with Type(220), Variant(1), Pos(520.00,280.00)
-[INFO] - Spawn Entity with Type(277), Variant(0), Pos(520.00,360.00)
-[INFO] - Lua mem usage: 8902 KB and 809 bytes
-[INFO] - Room 1.904(New Room)
-[INFO] - SpawnRNG seed: 47211983
-[INFO] - Spawn Entity with Type(277), Variant(0), Pos(200.00,240.00)
-[INFO] - Spawn Entity with Type(307), Variant(0), Pos(240.00,280.00)
-[INFO] - Spawn Entity with Type(307), Variant(0), Pos(400.00,280.00)
-[INFO] - Spawn Entity with Type(277), Variant(0), Pos(440.00,320.00)
-[INFO] - Lua mem usage: 8924 KB and 909 bytes
-[INFO] - Room 1.1116(New Room)
-[INFO] - SpawnRNG seed: 1037077583
-[INFO] - Spawn Entity with Type(878), Variant(0), Pos(280.00,160.00)
-[INFO] - Spawn Entity with Type(878), Variant(0), Pos(360.00,160.00)
-[INFO] - Spawn Entity with Type(23), Variant(2), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(23), Variant(2), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(878), Variant(0), Pos(280.00,400.00)
-[INFO] - Spawn Entity with Type(878), Variant(0), Pos(360.00,400.00)
-[INFO] - Lua mem usage: 8906 KB and 809 bytes
-[INFO] - Room 1.861(New Room (copy))
-[INFO] - SpawnRNG seed: 1683726940
-[INFO] - Spawn Entity with Type(204), Variant(0), Pos(80.00,360.00)
-[INFO] - Spawn Entity with Type(86), Variant(0), Pos(240.00,360.00)
-[INFO] - Spawn Entity with Type(86), Variant(0), Pos(400.00,360.00)
-[INFO] - Spawn Entity with Type(204), Variant(0), Pos(560.00,360.00)
-[INFO] - Lua mem usage: 8909 KB and 629 bytes
-[INFO] - Room 20.24(The Chest Room (Placeholder))
-[INFO] - SpawnRNG seed: 1329823418
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(320.00,200.00)
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(200.00,240.00)
-[INFO] - Spawn Entity with Type(6), Variant(6), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(440.00,280.00)
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(240.00,320.00)
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(320.00,320.00)
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(400.00,360.00)
-[INFO] - Lua mem usage: 8914 KB and 197 bytes
+[INFO] - Setting PersistentGameData ReadOnly to False
+[INFO] - CPU time spent on enemy queries: 0.03 seconds.
+[INFO] - Menu Manager preCrossfade
+[INFO] - Menu Manager Init
+[INFO] - Menu Title Init
+[INFO] - Menu Save Init
+[INFO] - Menu_Save Pre Prompt init
+[INFO] - Menu_Save loading slot drawings
+[INFO] - Setting PersistentGameData ReadOnly to False
+[INFO] - Loading PersistentData 1 from SteamCloud!
+[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
+[INFO] - Reading chunk 1
+[INFO] - Reading Achievements
+[INFO] - Done Reading Achievements
+[INFO] - Reading chunk 2
+[INFO] - Reading Counters
+[INFO] - Done Reading Counters
+[INFO] - Reading chunk 3
+[INFO] - Reading Level Counters
+[INFO] - Done Reading Level Counters
+[INFO] - Reading chunk 4
+[INFO] - Reading Collectibles
+[INFO] - Done Reading Collectibles
+[INFO] - Reading chunk 5
+[INFO] - Reading Mini Bosses
+[INFO] - Done Reading Mini Bosses
+[INFO] - Reading chunk 6
+[INFO] - Reading Bosses
+[INFO] - Done Reading Bosses
+[INFO] - Reading chunk 7
+[INFO] - Reading Challenge Counters
+[INFO] - Done Reading Challenge Counters
+[INFO] - Reading chunk 8
+[INFO] - Reading Cutscene Counters
+[INFO] - Done Reading Cutscene Counters
+[INFO] - Reading chunk 9
+[INFO] - Reading GameSettings
+[INFO] - Done Reading GameSettings
+[INFO] - Reading chunk 10
+[INFO] - Reading Special Seed Counters
+[INFO] - Done Reading Special Seed Counters
+[INFO] - Reading chunk 11
+[INFO] - Reading Bestiary Counters
+[INFO] - Done Reading Bestiary Counters
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.861(New Room (copy))
-[INFO] - SpawnRNG seed: 1683726940
-[INFO] - Lua mem usage: 8909 KB and 469 bytes
-[INFO] - Room 1.265(New Room)
-[INFO] - SpawnRNG seed: 1097020026
-[INFO] - Spawn Entity with Type(253), Variant(0), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8909 KB and 469 bytes
-[INFO] - Room 4.29()
-[INFO] - SpawnRNG seed: 2563539512
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
-[INFO] - Lua mem usage: 8925 KB and 117 bytes
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 200 (Mom's Eyeshadow) to player 0 (Azazel)
-[INFO] - music stopped playing
-[INFO] - Room 1.265(New Room)
-[INFO] - SpawnRNG seed: 1097020026
-[INFO] - Lua mem usage: 8907 KB and 268 bytes
-[INFO] - Room 1.1184(New Room)
-[INFO] - SpawnRNG seed: 2445355306
-[INFO] - Spawn Entity with Type(6), Variant(9), Pos(120.00,280.00)
-[INFO] - Spawn Entity with Type(6), Variant(13), Pos(280.00,280.00)
-[INFO] - Lua mem usage: 8927 KB and 1016 bytes
-[INFO] - Room 1.1156(New Room)
-[INFO] - SpawnRNG seed: 690041290
-[INFO] - Spawn Entity with Type(25), Variant(0), Pos(440.00,160.00)
-[INFO] - Spawn Entity with Type(61), Variant(0), Pos(40.00,200.00)
-[INFO] - Spawn Entity with Type(61), Variant(0), Pos(40.00,280.00)
-[INFO] - Spawn Entity with Type(61), Variant(0), Pos(40.00,360.00)
-[INFO] - Spawn Entity with Type(25), Variant(0), Pos(440.00,400.00)
-[INFO] - Lua mem usage: 8930 KB and 600 bytes
+[INFO] - Loading GameState 1 from SteamCloud!
+[INFO] - GameState Version Loaded: 146
+[INFO] - Setting PersistentGameData ReadOnly to False
+[INFO] - Loading PersistentData 2 from SteamCloud!
+[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata2.dat.
+[INFO] - Reading chunk 1
+[INFO] - Reading Achievements
+[INFO] - Done Reading Achievements
+[INFO] - Reading chunk 2
+[INFO] - Reading Counters
+[INFO] - Done Reading Counters
+[INFO] - Reading chunk 3
+[INFO] - Reading Level Counters
+[INFO] - Done Reading Level Counters
+[INFO] - Reading chunk 4
+[INFO] - Reading Collectibles
+[INFO] - Done Reading Collectibles
+[INFO] - Reading chunk 5
+[INFO] - Reading Mini Bosses
+[INFO] - Done Reading Mini Bosses
+[INFO] - Reading chunk 6
+[INFO] - Reading Bosses
+[INFO] - Done Reading Bosses
+[INFO] - Reading chunk 7
+[INFO] - Reading Challenge Counters
+[INFO] - Done Reading Challenge Counters
+[INFO] - Reading chunk 8
+[INFO] - Reading Cutscene Counters
+[INFO] - Done Reading Cutscene Counters
+[INFO] - Reading chunk 9
+[INFO] - Reading GameSettings
+[INFO] - Done Reading GameSettings
+[INFO] - Reading chunk 10
+[INFO] - Reading Special Seed Counters
+[INFO] - Done Reading Special Seed Counters
+[INFO] - Reading chunk 11
+[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata2.dat.
+[INFO] - Loading GameState 2 from SteamCloud!
+[INFO] - SteamCloud could not find or open rep_gamestate2.dat. No Game State detected.
+[INFO] - Cannot continue a game that doesn't have the same modding state (rep_rerunstate2.dat)!
+[INFO] - Setting PersistentGameData ReadOnly to False
+[INFO] - Loading PersistentData 3 from SteamCloud!
+[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata3.dat.
+[INFO] - Reading chunk 1
+[INFO] - Reading Achievements
+[INFO] - Done Reading Achievements
+[INFO] - Reading chunk 2
+[INFO] - Reading Counters
+[INFO] - Done Reading Counters
+[INFO] - Reading chunk 3
+[INFO] - Reading Level Counters
+[INFO] - Done Reading Level Counters
+[INFO] - Reading chunk 4
+[INFO] - Reading Collectibles
+[INFO] - Done Reading Collectibles
+[INFO] - Reading chunk 5
+[INFO] - Reading Mini Bosses
+[INFO] - Done Reading Mini Bosses
+[INFO] - Reading chunk 6
+[INFO] - Reading Bosses
+[INFO] - Done Reading Bosses
+[INFO] - Reading chunk 7
+[INFO] - Reading Challenge Counters
+[INFO] - Done Reading Challenge Counters
+[INFO] - Reading chunk 8
+[INFO] - Reading Cutscene Counters
+[INFO] - Done Reading Cutscene Counters
+[INFO] - Reading chunk 9
+[INFO] - Reading GameSettings
+[INFO] - Done Reading GameSettings
+[INFO] - Reading chunk 10
+[INFO] - Reading Special Seed Counters
+[INFO] - Done Reading Special Seed Counters
+[INFO] - Reading chunk 11
+[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata3.dat.
+[INFO] - Loading GameState 3 from SteamCloud!
+[INFO] - SteamCloud could not find or open rep_gamestate3.dat. No Game State detected.
+[INFO] - Cannot continue a game that doesn't have the same modding state (rep_rerunstate3.dat)!
+[INFO] - Setting PersistentGameData ReadOnly to False
+[INFO] - Loading PersistentData 1 from SteamCloud!
+[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
+[INFO] - Reading chunk 1
+[INFO] - Reading Achievements
+[INFO] - Done Reading Achievements
+[INFO] - Reading chunk 2
+[INFO] - Reading Counters
+[INFO] - Done Reading Counters
+[INFO] - Reading chunk 3
+[INFO] - Reading Level Counters
+[INFO] - Done Reading Level Counters
+[INFO] - Reading chunk 4
+[INFO] - Reading Collectibles
+[INFO] - Done Reading Collectibles
+[INFO] - Reading chunk 5
+[INFO] - Reading Mini Bosses
+[INFO] - Done Reading Mini Bosses
+[INFO] - Reading chunk 6
+[INFO] - Reading Bosses
+[INFO] - Done Reading Bosses
+[INFO] - Reading chunk 7
+[INFO] - Reading Challenge Counters
+[INFO] - Done Reading Challenge Counters
+[INFO] - Reading chunk 8
+[INFO] - Reading Cutscene Counters
+[INFO] - Done Reading Cutscene Counters
+[INFO] - Reading chunk 9
+[INFO] - Reading GameSettings
+[INFO] - Done Reading GameSettings
+[INFO] - Reading chunk 10
+[INFO] - Reading Special Seed Counters
+[INFO] - Done Reading Special Seed Counters
+[INFO] - Reading chunk 11
+[INFO] - Reading Bestiary Counters
+[INFO] - Done Reading Bestiary Counters
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 6.2043(Greed (copy))
-[INFO] - SpawnRNG seed: 3952978658
-[INFO] - Spawn Entity with Type(17), Variant(4), Pos(120.00,160.00)
-[INFO] - Spawn Entity with Type(17), Variant(1), Pos(520.00,160.00)
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(560.00,160.00)
-[INFO] - Spawn Entity with Type(50), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(5), Variant(20), Pos(80.00,400.00)
-[INFO] - Lua mem usage: 8911 KB and 896 bytes
-[INFO] - TriggerBossDeath: 0 bosses remaining.
-[INFO] - MiniBoss 4 added to SaveState
-[INFO] - music stopped playing
+[INFO] - Loading GameState 1 from SteamCloud!
+[INFO] - GameState Version Loaded: 146
+[INFO] - Menu Game Init
+[INFO] - Menu Daily Init
+[INFO] - Menu Character Init
+[INFO] - Menu SpecialSeed Init
+[INFO] - Menu Challenge Init
+[INFO] - Menu Collection Init
+[INFO] - Menu Stats Init
+[INFO] - Menu Mods Init
+[INFO] - Menu Options Init
+[INFO] - Menu Controller Init
+[INFO] - Menu Key Config Init
+[INFO] - Menu Cutscene Init
+[INFO] - Menu Bestiary Init
+[INFO] - Menu Custom Challenge Init
+[INFO] - Isaac is shutting down...
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1156(New Room)
-[INFO] - SpawnRNG seed: 690041290
-[INFO] - Lua mem usage: 8914 KB and 648 bytes
-[INFO] - Room 1.1204(New Room)
-[INFO] - SpawnRNG seed: 2533953576
-[INFO] - Spawn Entity with Type(27), Variant(0), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(27), Variant(0), Pos(520.00,360.00)
-[INFO] - Lua mem usage: 8909 KB and 952 bytes
-[INFO] - Room 1.1156(New Room)
-[INFO] - SpawnRNG seed: 690041290
-[INFO] - Lua mem usage: 8908 KB and 492 bytes
-[INFO] - Room 1.1204(New Room)
-[INFO] - SpawnRNG seed: 2533953576
-[INFO] - Spawn Entity with Type(27), Variant(0), Pos(120.00,200.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(280.00,280.00)
-[INFO] - Spawn Entity with Type(42), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(360.00,280.00)
-[INFO] - Spawn Entity with Type(27), Variant(0), Pos(520.00,360.00)
-[INFO] - Lua mem usage: 8906 KB and 672 bytes
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Layer.ogg
-[INFO] - Queued Path music/Afterbirth/Pulso Profundum (dank Depths ) Loop.ogg
-[INFO] - Room 1.1206(New Room)
-[INFO] - SpawnRNG seed: 475460843
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(280.00,240.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(360.00,240.00)
-[INFO] - Spawn Entity with Type(40), Variant(0), Pos(280.00,320.00)
-[INFO] - Spawn Entity with Type(881), Variant(0), Pos(360.00,320.00)
-[INFO] - Lua mem usage: 8912 KB and 0 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 5.1064(Mom)
-[INFO] - SpawnRNG seed: 2111293524
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(320.00,160.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(80.00,280.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(560.00,280.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(320.00,400.00)
-[INFO] - Lua mem usage: 8921 KB and 32 bytes
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Adding costume for 86 (Monstro's Tooth) which was added before and never removed.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1206(New Room)
-[INFO] - SpawnRNG seed: 475460843
-[INFO] - Lua mem usage: 8911 KB and 888 bytes
-[INFO] - Room 5.1064(Mom)
-[INFO] - SpawnRNG seed: 2111293524
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(320.00,160.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(80.00,280.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(560.00,280.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(320.00,400.00)
-[INFO] - Lua mem usage: 8914 KB and 208 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1206(New Room)
-[INFO] - SpawnRNG seed: 475460843
-[INFO] - Lua mem usage: 8914 KB and 16 bytes
-[INFO] - Room 5.1064(Mom)
-[INFO] - SpawnRNG seed: 2111293524
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(320.00,160.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(80.00,280.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(320.00,280.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(560.00,280.00)
-[INFO] - Spawn Entity with Type(45), Variant(0), Pos(320.00,400.00)
-[INFO] - Lua mem usage: 8907 KB and 268 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 1.1206(New Room)
-[INFO] - SpawnRNG seed: 475460843
-[INFO] - Lua mem usage: 8913 KB and 168 bytes
+[INFO] - CPU time spent on enemy queries: 0.03 seconds.
+[INFO] - delete 1300 rooms.
+[INFO] - delete 1443 rooms.
+[INFO] - delete 30 rooms.
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/005.100_collectible.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/buttons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_transform_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_transform_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_transform_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_player_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/005.100_collectible.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_cardspills.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_inline_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_inline_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/eid_transform_icons.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - [warn] AnmCache: cannot remove reference to gfx/ui/modconfig/menu.anm2
+[INFO] - Isaac has shut down successfully 

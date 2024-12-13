@@ -30,6 +30,6 @@ xscreensaver --no-splash &
 pamixer --source alsa_input.pci-0000_00_1f.3.analog-stereo -m &
 pamixer -m &
 
-# load WM and status bar
+# load WM and status background
 slstatus &
 exec dwm
