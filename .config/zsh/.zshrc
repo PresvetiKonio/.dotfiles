@@ -66,7 +66,6 @@ source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.z
 #source ~/.config/zsh/zsh-auto-notify/auto-notify.plugin.zsh
 #source ~/.config/zsh/you-should-use/you-should-use.plugin.zsh
 
-source ~/.config/lf/lfcd.sh
 
 zstyle ':completion:*' menu select
 

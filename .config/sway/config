@@ -54,7 +54,7 @@ hide_edge_borders smart
 gaps inner 5
 
 # Autostart
-exec --no-startup-id mako
+exec --no-startup-id dunst
 exec --no-startup-id nm-applet
 #exec --no-startup-id redshift -c ~/.config/redshift/config
 #exec mailspring
@@ -101,10 +101,10 @@ bindgesture {
 
 # Output configuration
 #output * bg $background fill
-exec swaybg -i ~/.config/wallpapers/autumn_forest.png -m fill
+exec swaybg -i ~/.config/wallpapers/autumn_forest.png  -m fill
 
 # Default workspaces for common programs
-assign [app_id="^LibreWolf$"] $ws2
+assign [app_id="LibreWolf"] $ws2
 # assign [class="^code-oss$"] $ws2
 # assign [app_id="virt-manager"] $wsF8
 assign [class="^Spotify$"] $ws4
@@ -145,9 +145,9 @@ bindsym --locked XF86AudioMute exec changevolume mute
 bindsym --locked XF86AudioMicMute exec changemicvol mute
 bindsym --locked Shift+XF86AudioRaiseVolume exec changemicvol up
 bindsym --locked Shift+XF86AudioLowerVolume exec changemicvol down
-bindsym --locked XF86AudioPlay exec playerctl play-pause
-bindsym --locked XF86AudioNext exec playerctl next
-bindsym --locked XF86AudioPrev exec playerctl previous
+bindsym --locked XF86AudioPlay exec playerctl -p spotify play-pause
+bindsym --locked XF86AudioNext exec playerctl -p spotify next
+bindsym --locked XF86AudioPrev exec playerctl -p spotify previous
 
 bindsym $mod+z exec playerctl previous
 bindsym $mod+x exec playerctl play-pause
