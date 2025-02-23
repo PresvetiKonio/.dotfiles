@@ -1,37 +1,47 @@
 configuration {
-    modi:            "drun";
-    show-icons:      true;
-    icon-theme:      "Paper";
-    sidebar-mode:    false;
-    display-drun:    "";
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+  font: "Hack Nerd Font Regular 13";
+
+  drun {
+    display-name: " ";
+  }
+
+  run {
+    display-name: " ";
+  }
+
+  window {
+    display-name: " ";
+  }
 }
 
-* {
-    color-background: rgba(35, 31, 32, 0.85);
-    color-text:       rgba(255, 255, 255, 1);
-    color-highlight:  rgba(0, 157, 220, 1);
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
 
-    background-color: transparent;
-    text-color:       @color-text;
-    spacing:          30;
-
-    font:             "Comic Code 14";
+mainbox {
+  children: [inputbar, listview];
 }
 
-#window {
-    fullscreen:       true;
-    transparency:     "background";
-
-    background-color: @color-background;
-
-    children:         [ dummy1, hdum, dummy2 ];
+inputbar {
+  children: [prompt, entry];
 }
 
-#hdum {
-    orientation: horizontal;
-    children:    [ dummy3, mainbox, dummy4 ];
+prompt {
+  padding: 0 12px;
 }
 
-#element selected {
-    text-color: @color-highlight;
+element {
+  children: [element-icon, element-text];
+}
+
+element-text {
+  padding: 6px 12px;
+}
+
+element-icon {
+    size: 1.4em;
+}
+
+listview {
+  lines: 12;
 }

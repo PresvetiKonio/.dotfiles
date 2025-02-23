@@ -1,6 +1,6 @@
 # default apps
 export EDITOR="nvim"
-export TERMINAL="alacritty"
+export TERMINAL="kitty"
 export BROWSER="librewolf"
 
 # Adds ~/.local/bin and subfolders to $PATH
@@ -32,7 +32,7 @@ export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 
 export MANPAGER="less -R --use-color -Dd+r -Du+b"
 
-export WINIT_X11_SCALE_FACTOR=1.75 alacritty
+export WINIT_X11_SCALE_FACTOR=1 alacritty
 
 # lf icons
 export LF_ICONS="\

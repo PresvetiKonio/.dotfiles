@@ -15,13 +15,13 @@ HISTFILE=~/.cache/zsh/history
 alias ls="ls --color"
 alias l="ls -la"
 alias s="sway"
-alias lf="lfub"
 alias vim="nvim"
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias fuckit="poweroff"
 alias cal='cal -m'
+alias imgview='swallow sxiv .'
 
 # funcions
 fcd() {
@@ -31,7 +31,9 @@ vimto() {
     vim "$(find -type f | fzf)"
 }
 wali() {
-    wal -i "$(find -type f | fzf)"
+    wal -s -i "$(find ~/.config/wallpapers -type f | fzf)"
+    pkill waybar 
+    waybar & disown > /dev/null 2>&1
 }
 
 

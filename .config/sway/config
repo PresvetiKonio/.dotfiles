@@ -1,17 +1,17 @@
 # Variables
 set $mod Mod4
 # set $lock ~/.local/bin/scripts/lock.sh
-set $lock betterlockscreen -l
+set $lock betterlockscreen -l dimm
 set $power ~/.config/rofi/modi/power
 set $wifi ~/.config/rofi/modi/nmcli
-set $term alacritty
-set $menu rofi -m $(expr $(swaymsg -t get_tree | jq '.nodes | map([recurse(.nodes[]?, .floating_nodes[]?) | .focused] | any) | index(true)') - 1) -show drun -run-command 'swaymsg exec -- {cmd}'
+set $term kitty
+# set $menu rofi -m $(expr $(swaymsg -t get_tree | jq '.nodes | map([recurse(.nodes[]?, .floating_nodes[]?) | .focused] | any) | index(true)') - 1) -show drun -run-command 'swaymsg exec -- {cmd}'
 set $menu rofi -m $(swaymsg -t get_outputs | jq 'map(select(.active) | .focused) | index(true)') -show drun -run-command 'swaymsg exec -- {cmd}'
 set $screenshot grim ~/Images/screenshots/scrn-$(date +"%Y-%m-%d-%H-%M-%S").png
 set $copy_screen ~/.local/bin/copy_screen_wayland select
 set $copy_screen_whole ~/.local/bin/copy_screen_wayland
 set $screenclip slurp | grim -g - ~/Images/screenshots/scrn-$(date +"%Y-%m-%d-%H-%M-%S").png
-#set $background ~/.config/wallpapers/shitwall.jpg
+set $background $(cat ~/.cache/wal/wal)
 
 set $cl_high #009ddc
 set $cl_indi #d9d8d8
@@ -45,6 +45,16 @@ focus_follows_mouse no
 input 592 middle_emulation enabled
 floating_modifier $mod normal
 
+smart_corner_radius on
+corner_radius 5
+default_dim_inactive 0.05
+blur enable
+blur_passes 2
+blur_radius 2
+shadows on
+shadow_blur_radius 20
+titlebar_separator disable
+
 # Window borders
 default_border pixel 2
 default_floating_border normal
@@ -62,6 +72,9 @@ exec spotify
 #exec riot
 #exec --no-startup-id nextcloud
 exec --no-startup-id libinput-gestures
+
+seat seat0 hide_cursor 5000
+
 
 # Applauncher
 bindsym $mod+w exec librewolf
@@ -100,8 +113,11 @@ bindgesture {
 }
 
 # Output configuration
-#output * bg $background fill
-exec swaybg -i ~/.config/wallpapers/autumn_forest.png  -m fill
+output * bg $background fill
+# exec swaybg -i ~/.config/wallpapers/autumn_forest.png  -m fill
+# set $wallpapers_path ~/.config/wallpapers
+# output * bg $(find $wallpapers_path -type f | shuf -n 1) fill
+
 
 # Default workspaces for common programs
 assign [app_id="LibreWolf"] $ws2
@@ -237,11 +253,12 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-set $mode_system System: (l) lock, (e) logout, (s) suspend, (r) reboot, (p) poweroff, (R) UEFI
+set $mode_system (l)lock (e)logout (s)suspend (h)hibernate (r)reboot (p)poweroff (R)UEFI
 mode "$mode_system" {
     bindsym l exec $lock, mode "default"
     bindsym e exit
     bindsym s exec --no-startup-id systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id systemctl hibernate, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym p exec --no-startup-id systemctl poweroff -i, mode "default"
     bindsym Shift+r exec --no-startup-id systemctl reboot --firmware-setup, mode "default"
@@ -254,5 +271,5 @@ bindsym $mod+Shift+e mode "$mode_system"
 
 exec waybar
 
-include ~/.config/sway/$(hostname)/*
+include ~/.config/sway/*
 
