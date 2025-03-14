@@ -13,6 +13,7 @@ set $copy_screen_whole ~/.local/bin/copy_screen_wayland
 set $screenclip slurp | grim -g - ~/Images/screenshots/scrn-$(date +"%Y-%m-%d-%H-%M-%S").png
 set $background $(cat ~/.cache/wal/wal)
 
+
 set $cl_high #009ddc
 set $cl_indi #d9d8d8
 set $cl_back #231f20
@@ -66,6 +67,8 @@ gaps inner 5
 # Autostart
 exec --no-startup-id dunst
 exec --no-startup-id nm-applet
+exec --no-startup-id autotiling-rs
+exec --no-startup-id wayneko --layer overlay
 #exec --no-startup-id redshift -c ~/.config/redshift/config
 #exec mailspring
 exec spotify
@@ -165,9 +168,9 @@ bindsym --locked XF86AudioPlay exec playerctl -p spotify play-pause
 bindsym --locked XF86AudioNext exec playerctl -p spotify next
 bindsym --locked XF86AudioPrev exec playerctl -p spotify previous
 
-bindsym $mod+z exec playerctl previous
-bindsym $mod+x exec playerctl play-pause
-bindsym $mod+c exec playerctl next
+bindsym $mod+z exec playerctl -p spotify previous
+bindsym $mod+x exec playerctl -p spotify play-pause
+bindsym $mod+c exec playerctl -p spotify next
 
 # Brightness controls
 bindsym --locked XF86MonBrightnessUp exec brillo -A 5 -q
@@ -224,7 +227,7 @@ bindsym $mod+t layout tabbed
 bindsym $mod+e layout toggle split
 
 # Make the current focus fullscreen
-bindsym $mod+f fullscreen
+bindsym $mod+Shift+f fullscreen
 
 # Toggle the current focus between tiling and floating mode
 bindsym $mod+Shift+space floating toggle
@@ -257,8 +260,8 @@ set $mode_system (l)lock (e)logout (s)suspend (h)hibernate (r)reboot (p)poweroff
 mode "$mode_system" {
     bindsym l exec $lock, mode "default"
     bindsym e exit
-    bindsym s exec --no-startup-id systemctl suspend, mode "default"
-    bindsym h exec --no-startup-id systemctl hibernate, mode "default"
+    bindsym s exec --no-startup-id 'pamixer -m && systemctl suspend', mode "default"
+    bindsym h exec --no-startup-id 'pamixer -m && systemctl hibernate', mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym p exec --no-startup-id systemctl poweroff -i, mode "default"
     bindsym Shift+r exec --no-startup-id systemctl reboot --firmware-setup, mode "default"

@@ -1,6 +1,6 @@
 # default apps
 export EDITOR="nvim"
-export TERMINAL="kitty"
+export TERMINAL="xterm-kitty"
 export BROWSER="librewolf"
 
 # Adds ~/.local/bin and subfolders to $PATH

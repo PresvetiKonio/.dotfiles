@@ -33,7 +33,7 @@ vimto() {
 wali() {
     wal -s -i "$(find ~/.config/wallpapers -type f | fzf)"
     pkill waybar 
-    waybar & disown > /dev/null 2>&1
+    waybar & disown  > /dev/null 2>&1
 }
 
 
